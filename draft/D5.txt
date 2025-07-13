@@ -1,28 +1,28 @@
 Disclaimer: This document is just a collection of ideas on the possible approach for the technical implementation of a democratic system and is not intended to be an appell to overthrow an real existing government.
 If there is an issues in this document which might be in contradiction to that intention the feedback for improvement will be appreciated and this document will be updated as soon as possible. 
 
-"D5" stands for Digital Decentral Diverse Direct Democracy:
+"D5" might stand for Digital Decentral Diverse Direct Democracy:
 
-A lot of current govermental functions require still analog bureaucracy, which decreases the speed of processing and wastes valuable resources. 
-A logical conclusion is to provide a webservice, which is digitally accessible either through browser and on a smartphone application.
+A lot of current govermental functions might require still analog bureaucracy, which might decrease the speed of processing and might waste valuable resources. 
+A logical conclusion might be to provide a internat based service, which might digitally accessible through any browser.
 
-To minimize the risk of corruption by data manipulation and monopolization, data will be stored on verifiable decentralized web services.
+To minimize the risk of corruption by data manipulation and monopolization, data might be stored on verifiable decentralized web services.
 
-Diversity is difficult to measure and thus to represent, especially for those who are less priviledged.
-By giving access to people, who can have a vote, to the system, they should be able to productively contribute.
+Diversity might be difficult to measure and thus to represent, especially for those who might be less priviledged.
+By giving access to those who might be able to have a vote in favor of such a system, one might seek be able to productively contribute.
 
-Direct democracy is generally difficult to implement because it would require enourmous human resources to process all information by all citizens. If moderated by bots and other citizens and not only by the governmental bureaucrats there might be enought processing power to let all citizens contribute directly to the final decisions, thus reducing the possiblity of abuse of power by representatives. To be compatible with the current representation based democracy, the announcement of the decisions made by the D5 system will be done by volunteers, saying that if D5 has been elected as the absolute majority, that the changes will be applied as announced.
+Direct democracy might be generally difficult to implement, one reason might be because it might require enourmous resources to process all information by all citizens. If such a system would be moderated by agentic software and other citizens and not only by those who are employed by a governmental bureaucracy there might be enough processing power to let all citizens contribute directly to the final decisions, thus reducing the possiblity of abuse of power by corrupt representatives. To be compatible with as many of the current representation based democractic political systems, the announcement of the decisions made by the D5 system might be done by elected volunteers, saying that if D5 has been elected as the absolute majority one day, that the draft for changes which has been announced, will be applied as announced.
 
-Democracy by humans is necessary to avoid fatal errors through full automation.
+Democracy by citizens subject to such a government might be necessary to avoid fatal errors unavoidably existing in a fully automated system.
 
 __________
-The D5 requires the following to operate:
+The D5 might require the following to operate:
 1. Users/Citizens with access to the system.
-1.1 Creative and knowledgable citizens, who come up with a solution to a problem and does research whether that solution is actually viable and discusses it with other citizens in a thread.
-1.2 Fast and decisive citizens: Their role is to understand the proposed solutions, compares them and decides as fast as possible which is the one which the most chance or least damage.
+1.1 Creative and knowledgable citizens, who might come up with a suggestion for a solution to a problem and might do research whether that suggestion might be actually viable and might discuss it with other citizens in a thread of a forum application.
+1.2 Fast and decisive citizens: Their role might be to understand the proposed solutions, comparing them and deciding as fast as possible which might be the one with the most chance or least damage.
 
 2. Operating Personell:
-2.1. Administrators, who maintain the system. The core system will be open source, so anyone can review the system and improve it. There need to be enought administrators, who can be paid eventhough volunteering is desirable, so bugs can be fixed as soon as possible and the webservice is constantly kept online. Only practive will tell how many people are required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and one person can be sick.
+2.1. Administrators, who might maintain the infrastructure of such a system. The core system might be open source, so anyone might be able to review the system and improve it. There might need to be enough administrators, who might be able to be paid eventhough volunteering is desirable, so errors might be able to be fixed as soon as possible and the webservice is constantly kept online. Only through the course of operation might be able to tell how many administrators might be required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and and a 7th administrator for any eventualities.
 2.2. Operators to verify users and other operators.
 2.3. Moderators: Moderating the discussions channels
 2.4. Verifiers: Verifying new knowledge entries
@@ -31,55 +31,54 @@ The D5 requires the following to operate:
 3. Technical infrastructure
 3.1. Source code
 3.2. Servers (will be explained later)
-3.3. Client devices (ideally an voice recorder developed by onthewayto.pro, but any device with access to internet and sufficient computation power would do)
+3.3. Client devices (any device with access to internet and sufficient computation power)
 3.4. Physical location (to send/receive letters, technical support, residence/bureau for personell, etc)
 
 4. Voice Of Huaminty Foundation funding the administrators, operators, moderators, coordinators and the necessary technical infrastructure.
 
-5. Local political party with representatives, who have authorized access to D5 system. So if a decision has been decided, to announce it as soon as possible in the local legislative organ.
+5. Local political party with representatives, who might have been authorized to access such a D5 system. So if a decision has been made, to announce it as soon as possible in the local legislative organization.
 ________
 
 Workflow for a decision:
-1) A citizen starts a thread for a topic describing a specific problem.
-2) Other citizens subscribed to a topic, gets notified about that thread.
-3) Other ciztizens join that thread, by answering a basic question regarding that topic, which is generated by either other citizens or by a bot.
-4) In the thread one or many solutions elaborated.
-5) At some point a post will be marked by the majority of the thread as a solution.
-6) If so, all citizens who are responsible for decisions who is subscribed to a topic will be notified.
-7) They can voce until at least 80% of them has voted and the solution needs to reach 51% of the votes. Until then, those people can vote.
-8) The result of the voce will be published to a log.
-9) The representative announces in the government meeting new entries on the log.
-10) Once the D5-party is elected as absolute majority, the representative changes the law accordingly.
+1) A citizen might start a thread for a topic describing a specific problem.
+2) Other citizens subscribed to a topic, might get notified about that thread.
+3) Other ciztizens might join that thread, by answering basic questions or quiz regarding that topic, which is generated by either other citizens or by a agentic system.
+4) In the thread one or many solutions might be elaborated.
+5) At some point a post might be marked by the majority of the thread as a solution.
+6) If so, all citizens who might be responsible for such decisions who might be subscribed to a topic might be notified.
+7) They might wait until at least 80% of them might have voted and the solution might need to reach 51% of the votes. Until then, the participants might be able to vote.
+8) The result of the vote might be published to a public log.
+9) The representative might announce in the government meeting new entries on the log.
+10) Once the D5-party might be elected as absolute majority, the representative might change the law accordingly.
 
 ________
 
 Workflow for identifying a specific problem:
-1) A citizen asks a question to the knowledge base of the system.
-2) The system trys to give an answer using bots, searching in other threads.
-3) If the bot does not find an viable answer or if the citizen is not satisfied with an answer,
-a thread with a topic can be started.
+1) A citizen might ask a question to the knowledge base of the system.
+2) The system might try to give an answer using agentic systems, searching in other threads.
+3) If the agentic system might not be able to find an viable answer or if the citizen might not be satisfied with an answer, a thread with a topic might be able to be started.
 ________
 
 Failsafe mechanisms:
-- Human Representative.
-- That human representative can request a predefined volunteer of a channel as expert to be present at congress.
-- Decentralization of the system.
+- Human representative, who might have received a long term psychological assessment of aptitude.
+- That human representative might request a predefined volunteer of a channel as expert to be present at congress.
+- Decentralization of the system through a peer-to-peer consensus mechanism.
 - System could be accessed with ad hoc mesh network off grid (meshtastic)
-- Human moderators supervise AI moderators
-- Corrupt representative can be deelected by the authorized ballot participants swiftly.
-- Operators of the Voice of Humanity foundation provides trustable operators.
-- The Voice of Humanity foundation will fund trustable operators including the supreme administrator.
+- Human moderators supervising the agentic systems.
+- Corrupt representative might be able to be deelected by the authorized ballot participants swiftly.
+- Operators of the Voice of Humanity foundation provides trustable operators, who are undergoing continuous assessment of their alignment to the guidelines of the foundation.
+- The Voice of Humanity foundation might be able to fund sufficiently trustable operators.
 
 ________
 
 Current tech stack:
 1. Client-Application:
 	- Internet connection with a gateway node providing access to read and request to publish a message.
-	- The gateway node instance can be either selected by the user from the official list hosted on the voice of humanity foundation website or self hosted.
+	- The gateway node instance might be able to be either selected by the user from the official list hosted on the voice of humanity foundation website or self hosted.
 	- Self Compilable
 	- Request a UUID and public encrpytion key automatically.
-	- Sends an encrpyted message with the public key of the authentication node for privacy.
-	- If the publish request was denied by the authorization node, the user gets an two strings. One string contains plain text explaining the reason in human understandable way. The other string containing an encrpyted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request was denied.
+	- Might send an encrpyted message with the public key of the authentication node for privacy.
+	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrpyted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request was denied.
 	- The user has the freedom to send the encrpyted string to the Voice of Humanity foundation for review by human after the verification with altcha. Only messages which can be decrypted by the authorization node will be actually sent for human review.
 	- If then a malicious intent was detected during the human review, that client with the UUID can be black listed.
 	- A client can request permission to vote, after the identitiy of the client has been verified using the API for online identification of local governments.
