@@ -78,130 +78,130 @@ Current tech stack:
 	- Self Compilable
 	- Request a UUID and public encrpytion key automatically.
 	- Might send an encrpyted message with the public key of the authentication node for privacy.
-	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrpyted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request was denied.
-	- The user has the freedom to send the encrpyted string to the Voice of Humanity foundation for review by human after the verification with altcha. Only messages which can be decrypted by the authorization node will be actually sent for human review.
-	- If then a malicious intent was detected during the human review, that client with the UUID can be black listed.
-	- A client can request permission to vote, after the identitiy of the client has been verified using the API for online identification of local governments.
+	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrpyted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request might have been denied.
+	- The user might have the freedom to send the encrpyted string to the Voice of Humanity foundation for review by human after the verification with altcha. Only messages which might be decrypted by the authorization node might be actually sent for human review.
+	- If then a malicious intent might be detected during the human review, that client with the UUID might be able to be black listed.
+	- A client might be able to request permission to vote, after the identitiy of the client might have been verified using the API for online identification of local governments.
 
 2. Gateway Node:
-	- Self Compilable, UUID of the gateway node is registered in authorization node
-	- Hosts a REST API to access to the decentralized data and request to publish messages.
-	- Relays encrpyted publish message request to the authorization node. 
-	- Can be requested for black listing, if many malicious clients activity has been detected.
+	- Self Compilable, UUID of the gateway node might be registered in authorization node
+	- Might host a REST API to access to the decentralized data and request to publish messages.
+	- Might relay encrpyted publish message request to the authorization node. 
+	- Might be able to be requested for black listing, if many malicious clients activity might have been detected.
 
 3. Authorization node.
-	- Can authenticate and blacklist a Gateway node.
-	- Is a encrypted Docker image, and only that image has access to the decentralized key management system.
-	- Regularly automatically recompiles itself from the most recent commit to radicle repo.
-	- All activity requires authorization by the decentral secret management system.
-	- Has an local RAG pipeline with a knowledge base and guard rail system to verify that a new message is not a spam.
-	- If the message is verified, updates the data of the forum/knowledge base.
-	- Provides API to accept pull requests for the source code on redicle repo will be authorized by the maintenance team.
-	- A request to black list a authorization node can be sent to the decentral secret management system by the maintainer of an authorization node.
-	- After the request for black listing has been issued, all activities by that node is suspended until the request has been processed.
-	- After sending one request to black list, that original authentication node is also suspended to prevent one node accusing all others.
+	- Might be able to authenticate and blacklist a Gateway node.
+	- Might be a encrypted docker image, and only that image might have access to the decentralized key management system.
+	- Might regularly automatically recompile itself from the most recent commit to radicle repo.
+	- All activity might require authorization by the decentral secret management system.
+	- Might have a local RAG pipeline with a knowledge base and guard rail system to verify that a new message might not be spam.
+	- If the message might be verified, it might update the data of the forum/knowledge base.
+	- Might provide API to accept pull requests for the source code on redicle repo might be authorized by the maintenance team.
+	- A request to black list a authorization node might be sent to the decentral secret management system by the maintainer of an authorization node.
+	- After the request for black listing might have been issued, all activities by that node might be suspended until the request might have been processed.
+	- After sending one request to black list that original authentication node might also be suspended to prevent one node accusing all others.
 
 4. Decentral secret management system:
-	- Is a dApp fist instantiated and funded by the voice of humanity foundation and acts as a single instance.
-	- It's purpose is to keeps regenerating the credendencials in certain intervals to avoid being brute forced.
-	- The credencials are encrpyted in a file on a virtual disk on a RAM and is not stored anywhere else to avoid being brute forced.
+	- It might be a dApp at first instantiated and might be funded by the voice of humanity foundation and might act as a single instance.
+	- It's purpose might be to keep regenerating the credendencials in certain intervals to avoid being brute forced.
+	- The credencials might be encrpyted in a file on a virtual disk on a RAM and might not be stored anywhere else to avoid being brute forced.
 	- List of credentials to be stored:
-		- All public keys, UUIDs of the client applicaiton, and whether it is blocked, and whether it has permissions to vote.
-		- All public keys and UUIDs of the gateway node, and whether it is blocked
-		- All public keys and UUIDs of the authorization node, and whether it is blocked
-		- The private key private key used to encrypt the file with the credencials is also on the temporal ram on a RAM of the decentral private computing cluster and is also regulary regenerated.
-		- The root password, after the first instantiation, the system locks out the access to the root system by changing the root password to a random password. And the system keeps changing the root password as well to avoid evil maid attack.
-	- Manages votes regarding black listing of authentication nodes.
+		- All public keys, UUIDs of the client applicaiton, and whether it might be blocked, and whether it might have permissions to vote.
+		- All public keys and UUIDs of the gateway node, and whether it might be blocked
+		- All public keys and UUIDs of the authorization node, and whether it might be blocked
+		- The private key private key used to encrypt the file with the credencials might be also on the temporal ram on a RAM of the decentral private computing cluster and might be also regulary regenerated.
+		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep changing the root password as well to avoid "evil maid attacks".
+	- Might manage votes regarding black listing of authentication nodes.
 
-5. Publically accessible decentral storage for the forum data for discussion, it's operation is funded by the voice of humanity foundation. The current laws of each country are mirrored and anyone can publish a comment or specific change for that law but only authenticated with the digital identity issued by that local government of that country can participate in the vote to accept that change.
+5. Publically accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.
 ________
 Old tech stack:
 1. Client-Device:
-	- Internet connection with a centralized REST server providing access to read only access to channels.
-	- The instance of the centralizes REST server can be chosen by the user from the official list hosted on the Voice of Humanity foundation.
-	- Optional features because it requires enough computing power for verification of data integregity. If hosted, it can work as a gateway with write access, usually exceeding the capabilities of commonly affordable smartphone:
-		- hosting a minimal unauthorized node decentral communication Protocol with write access to channels
-		- hosting a minimal authorized node for decentral communication Protocol with write access to ballots
+	- Internet connection with a centralized REST server might provide access to read only access to channels.
+	- The instance of the centralizes REST server might be able to be chosen by the user from the official list hosted on the Voice of Humanity foundation.
+	- Optional features because it might require enough computing power for verification of data integregity. If hosted, it might be able to work as a gateway with write access, usually exceeding the capabilities of commonly affordable smartphone:
+		- Which might be hosting a minimal unauthorized node decentral communication Protocol with write access to channels.
+		- Which might be hosting a minimal authorized node for decentral communication Protocol with write access to ballots.
 
 2. Server:
-2.1 P2P authorized node as bootstrapping nodes forked custom instance of radicle and  forked custom instance of verizexe (Multiple independent instances desireable)
-2.2 P2P authorized node with radicle like decentral repo hosting source code and also the public data (discussion channels, ballot results, knwoledge base) and private data (Blacklist, each ballot votes) with write access
-2.3 P2P unauthorized node with radicle like decentral repo hosting source code and also the public data (discussion channels, ballot results) and private data (Blacklist, each ballot votes) with only read access
-2.4 P2P authorized node with read only access to public data interfacing a centralized REST server for quick information access.
-2.5 P2P authorized node with code review bot, verifying request for change and initiating a ballot of the code maintainance team
-2.6 P2P authorized node with with moderator bots responsible for blacklisting nodes for each channels if a malitious intent was recognized, before blacklisting human moderator need to review that malitious action.
-2.7 P2P authorized node for quiz generator, submitting quiz to human verifiers 
-2.8 P2P authorized node for authorization (of users, operators, domains to centralized server as information source)
-2.9 P2P authorized node for managing "main" cryptowallet managing all the Filecoin/Verizexe-coin, which address is hard coded and the private key is typed in manually by the highest administrator.
+2.1 P2P authorized node as bootstrapping nodes which might be forked custom instance of radicle and might be forked as an custom instance of verizexe (Multiple independent instances desireable)
+2.2 P2P authorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results, knwoledge base) and private data (Blacklist, each ballot votes) with write access.
+2.3 P2P unauthorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results) and private data (Blacklist, each ballot votes) with only read access.
+2.4 P2P authorized node with read only access to public data which might be interfacing a centralized REST server for quick information access.
+2.5 P2P authorized node with code review bot, which might be verifying request for change and initiating a ballot of the code maintainance team.
+2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a malitious intent might have been recognized, before blacklisting human moderator might need to review that malitious action.
+2.7 P2P authorized node for quiz generator, which might be submitting quiz to human verifiers.
+2.8 P2P authorized node for authorization (of users, operators, domains to centralized server as information source).
+2.9 P2P authorized node for managing "main" cryptowallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key is typed in manually by the highest administrator.
 ________
 MISC:
-- Example for online identification API provided by government for voting called "eID" in germany: https://www.personalausweisportal.de/Webs/PA/DE/wirtschaft/diensteanbieter-werden/einsatzmoeglichkeiten/einsatzmoeglichkeiten-node.html
-- Knowledge Base: Knowledge will be mainted as unstructured text from which a Neo4j with GPU acceleration will be generated for a RAG pipeline.
+- Example for online identification API which might be provided by government for voting called "eID" in Germany: https://www.personalausweisportal.de/Webs/PA/DE/wirtschaft/diensteanbieter-werden/einsatzmoeglichkeiten/einsatzmoeglichkeiten-node.html
+- Knowledge Base: Knowledge might be mainted as unstructured text from which a Neo4j with GPU acceleration which might be generated for a RAG pipeline.
 - decentralized webhosting:
 	- Decentral Open source code base: https://radicle.xyz/
 	- Decentral private computing:
 		- Protocol + Computing power: https://github.com/aleph-im/aleph-vm/tree/main/runtimes/aleph-debian-12-python
 		- Protocol: https://github.com/EspressoSystems/veri-zexe
 	- Decentral Storage for encrypted Docker images: https://ipfs.tech/
-	- Etherum Smart Contract for most important information, needs to be funded
+	- Etherum Smart Contract for most important information, which might need to be crowd-funded.
 
 
 Outdated reserach notes:
 	- Decentral webhosting: https://ipfs.tech/
-	- Decentral Database:  "proof of spacetime" -> With dedication, it cann be overrun
+	- Decentral Database:  "proof of spacetime" -> With dedication, it might be able to be overrun.
 		- https://spec.filecoin.io/
 		- https://docs.filecoin.io/builder-cookbook/dapps/decentralized-database
 	- Decentral forum: https://join-lemmy.org/docs/introduction.html
 
 ____________
-Known yet unsolved problems:
+Which might be known yet might be unsolved problems:
 - Verification process of the knowledge base/quiz
-	- Writing history through corrupt historians problem
-	- only an expert human can verify, but it means that it will be a bottleneck
-	- And discussing it in public channels means that it will leak the information
-	- And discussing it in private channels is against transparency.
+	- Writing history through corrupt historians problem.
+	- Only an expert human might be able to verify, but it might mean that it might be a bottleneck.
+	- And discussing it in public channels might mean that it will leak the information.
+	- And discussing it in private channels might be against transparency.
 - Cheating during knowledge tests:
-	- If the user cheats during tests (or malicious bot), then it could have sufficient knowledge to stay in the thread and propergate false information. Doing it with "trusted" people, has limitation on expertise, time and resources. For most people a test in a booth without electronics would be ideal, but it requires authorized and correct operation of that institution, which is difficult to ensure.
-- Integration of quantum cryptography requires special hardware, which might not be available for consumers soon enough. Even if it is available, it might be too expensive to obtain or to maintain.
+	- If the user might be cheating during tests (or malicious bot), then that user might have sufficient knowledge to stay in the thread and propergate false information. Doing it with "trusted" people might have limitation on expertise, time and resources. For most people a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure.
+- Integration of quantum cryptography might require special hardware, which might not be available for consumers soon enough. Even if it might become available, it might be too expensive to obtain or to maintain.
 __________
-Solved Problems:
-- What to do, if the system is inaccessible for some reason? (Coup d'etat problem) -> Decentralation (Offline First Principle)
-- Organized Radicalist group with bad intentions creates a fake majority (Radicalist problem) -> Black list 
-- Black List Problem: Ethical, Practical -> If someone does not pass the test, there is a ballot from that channel whether to actually black list that instance,
-where the users can see the answer to the question.
-- Prioritization of Nodes Problem If filecoin is used, the each nodes needs to donate the filecoin back to the account of the "main" node or so called "bootstrap" node,
-which address will be documented in the etherum smart contract. -> Filecoin will not be used, but verizexe
-- Fake accounts problem (Verification of nodes can be done by main node of local government)
-- No need for Load Balancing if the P2P instances are truely p2p (verizexe using off chaing computation)
-- Currently there are decentrally managed domains (e.g. .onion), but there is a need for single point of entry. ("decentral domains" for wallet are not it) -> p2p nodes may offer API to interact with federated frontend servers for ease of access
+Problems which might already be solved:
+- What one might do, if the system might be inaccessible for some reason? (Coup d'etat problem) -> Decentralation (Offline First Principle)
+- Organized Radicalist group with bad intentions might create a fake majority (Radicalist problem) -> Black list 
+- Black List Problem: Ethical, Practical -> If someone might not pass the test, there might be a ballot from that channel whether to actually black list that instance,
+where the users might be able to see the answer to the question.
+- Prioritization of Nodes Problem if filecoin might be used, the each nodes might need to donate the filecoin back to the account of the "main" node or so called "bootstrap" node,
+which address might be documented in the etherum smart contract. -> Filecoin might not be used, but "verizexe"
+- Fake accounts problem (Verification of nodes might be done by main node of local government)
+- No need for Load Balancing if the P2P instances might be truely p2p (verizexe using off chaing computation)
+- Currently there might be decentrally managed domains (e.g. .onion), but there might be a need for single point of entry. ("decentral domains" for wallet might not be it) -> p2p nodes might offer API to interact with federated frontend servers for ease of access
 - Verification of code integrity of nodes:
-	1. through homomorphic cryptography and zero knowledge protocols enable decentral private computation, the source code will be hosted decentrally, hardcoding the repo adress into the source code, the code for CI/CD is also hosted there, the compilation is also zero knowledge cryption and the execution environment can also be zero knowledge even though it may be expensive to calculate. It will probably based on nexus-zkvm.
+	1. Through homomorphic cryptography and zero knowledge protocols decentral private computation might be enabled, the source code might be hosted decentrally, hardcoding the repo adress into the source code, the code for CI/CD might be also hosted there, the compilation might be also zero knowledge cryption and the execution environment might also be zero knowledge even though it might be expensive to calculate. It might probably be based on nexus-zkvm.
 	 Incorporating radicle-repos into zkvm uncorruptable repo
-	2. The procedure for RFC (Request for Change) is unchangable
-	3. Everyone who manages to remain in the code maintenance team for at least a year can submit a pull request for code review by an bot
-	4. The code review checks that the changes are not violating against the procedures for RFC or changes to it
-	5. If the code review bot has check it, there is a vote  by the code maintenance team to accpet that RFC to the code base and triggers CI/CD workflow.
-	6. Hosting bot instances are optional (Code review, moderator, quiz generator, explainer)
-- Bot war Problm (Moderator Bot doesn't work as expected and goes rogue) -> Different bot is in charge of code review
-- Representative problem: There might be a possibility for the representative to become prime minister or similar roles for which it is required to make own decisions based on classified information. Therefore that representative need to decline such roles. Otherwise that representative will be subject of a ballot of reelection. If that representative is reelected, it means that the system and its users has reached its limits to prevent such events. One may only hope that the decisions of the representative could be referred as benevolent.
-- How to handle local polls? -> it is done outside of the system and thus irrelevant for the system. The polls made within this system are just for making suggestions to the local council and reelecting representatives for that local council if there are enough supporters to found a local politcal party.
+	2. The procedure for RFC (Request for Change) might be unchangable
+	3. Everyone who might manage to remain in the code maintenance team for at least a year might be able to submit a pull request for code review by an bot.
+	4. The code review might check that the changes might not be violating against the procedures for RFC or changes to it.
+	5. If the code review bot might have checked it, there might be a vote by the code maintenance team to accept that RFC to the code base, which might trigger a CI/CD workflow.
+	6. Hosting bot instances might be optional (Code review, moderator, quiz generator, explainer)
+- Bot war Problm (Moderator Bot might not work as expected and goes rogue) -> Different bot might be in charge of code review.
+- Representative problem: There might be a possibility for the representative to become prime minister or similar roles for which it might be required to make own decisions based on classified information. Therefore that representative might need to decline such roles. Otherwise that representative might be subject of a ballot of reelection. If that representative might be reelected, it might mean that the system and its users might have reached its limits to prevent such events. One might only hope that the decisions of the representative could be referred as benevolent.
+- How local polls might be able to be handled? -> It might be done outside of the system and thus irrelevant for the system. The polls made within this system might be just for making suggestions to the local council and reelecting representatives for that local council if there might be enough supporters to found a local politcal party.
 - Authorization of nodes and users:
-	- Since everyone is free to join, there is a problem of flooding with nodes operated by bots/humans for malicious intent.
-	- One solution approach is authorization for instanciation
-	- Every ballot instance needs to be authorized
-		- 1. Every operator from the identity verification service needs access to the system for the purpose of authorization.
-		- 2. Every operator will be verified by trusted operators of the Voice of Humanity foundation and the validity need to be updated at least annualy.
-		- 3. A citizen of a specific country from the local legal age for voting may request a verification through the system.
-			- There will be a simple quiz about the system to verify that they understand what they are applying for.
-			- Then typing in all the nessary infomation (Name, Email)
-			- The system will permanently store it together with a unique node ID, but the list is private and it is only possible to ask whether a user is already black listed or not.
-		- 4. They will receive an email containing a link and a one time key to the specified address which will start a identity verification process with authorized third party operators.
-		- 5. The user is authorized if the operator type it into the system. 
-		- 6. If a operator has authorized malicious users over a certain threshold regardless of the intention, the node of that operator will be suspended and that operator will be black listed by the system.
-		- 7. All users authorized by the corrupt operator, will be temporalily be excluded from ballots until reverification.
-		- 8. If that reverification does not happen in time, that user will be permanently blacklisted.
+	- Since everyone might be free to join, there might be a problem of flooding with nodes operated by bots/humans for malicious intent.
+	- One solution approach might be authorization for instanciation
+	- Every ballot instance might need to be authorized
+		- 1. Every operator from the identity verification service might require access to the system for the purpose of authorization.
+		- 2. Every operator might be verified by trusted operators of the Voice of Humanity foundation and the validity might need to be updated at least annualy.
+		- 3. A citizen of a specific country from the local legal age for voting might request a verification through the system.
+			- There might be a simple quiz about the system to verify that they understand what they might be applying for.
+			- Then they might be typing in all the nessary infomation (Name, Email).
+			- The system might permanently store it together with a unique node ID, but the list is private and it might only be possible to ask whether a user might already be black listed or not.
+		- 4. They might receive an email containing a link and a one time key to the specified address which might start a identity verification process with authorized third party operators.
+		- 5. The user might authorized if the operator might type it into the system. 
+		- 6. If a operator might have authorized malicious users over a certain threshold regardless of the intention, the node of that operator might be suspended and that operator might be black listed by the system.
+		- 7. All users authorized by the corrupt operator might be temporalily be excluded from ballots until reverification.
+		- 8. If that reverification might not happen in time, that user might be permanently blacklisted.
 - Trolling: Daily Rate Limit for publish requests
-- Malicious Client attack: Anyone can create a lot of client instances and sends publish requests, which are then denied and then requests to be reviewed by human and thus overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
+- Malicious Client attack: Anyone might be able to create a lot of client instances and sends publish requests, which might be then denied and then requests to be reviewed by human and thus might overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
 _____________
 Notes on implementation of the bots:
 1. Code review bot
@@ -209,15 +209,15 @@ Notes on implementation of the bots:
 
 2. Moderator bot:
 2.1 Principles of the moderator bot:
-  - If moderator bot removes a comment, that removed comment need to be:
+  - If moderator bot might remove a comment, that might have removed a comment might need to be:
 	- publically avaiable
-	- the author can request it to be reviewed by a member of the channel if falsely removed
-  - A comment needs to:
+	- the author might be able to request it to be reviewed by a member of the channel if falsely removed
+  - A comment might need to:
 	- refer to a verified knowledge base entry
 	- comply to the publication policy
 2.2 Publication Policy:
-- Be kind, speak truthfully, say useful things.
-- If you recognizse malitious action, report that action actively to the moderators. 
+- One might seek to be kind, to speak truthfully, to say useful things which might be necessary.
+- If one might recognizse malitious action, one might seek to report that action proactively to the moderators. 
 
 
 3. Quiz generator bot
