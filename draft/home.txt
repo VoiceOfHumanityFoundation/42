@@ -1,91 +1,112 @@
-iOne might find oneself on a path described in a lyrics of a song, which is as following:   
-"Country roads, take me home, to the place I belong."
-Those who seek a place one might belong might appreciate these words:    
-"Our sense of belonging can never be greater than our level of self acceptance."   
-Those who struggle to accept oneself might appreciate these words:   
-"Acceptance of the unacceptable is the greatest source of grace in this world."   
+One might find oneself having such an realization:   
+"What might be the point of living if one might not belong anywhere?"   
+Those who might seek somewhere one might belong to, might appreciate these words:    
+"One's sense of belonging might never be greater than one's level of self acceptance."   
+Those who might struggle to accept oneself might appreciate these words:   
+"Acceptance of the unacceptable might be the greatest source of grace in this world."   
 Those who struggle to have grace with oneself, might appreciate these words:   
-"For grace is given not because we have done good works, but in order that we may be able to do them."   
-Those who seek to do good might appreciate the chapter on "good". Those whom it makes wonder what a home might be might appreciate the following definition:   
-"Home is not where you were born; home is where all your attempts to escape cease."   
-Those who keep attempting to escape might appreciate these words:   
-"Home isn’t a place. Home is anywhere, just as long as the people you love are there."    
-Those who seek such people might appreciate the chapters "friendship" and "transcendence". Those who feels stuck somewhere, where one do not have the privilege of having people one loves, might appreciate the following realization:   
-"One must learn to love oneself with a wholesome and healthy love, so that one can bear to be with oneself and need not roam."   
-Those who seek to understand the necessity for the capability to bear to be with oneself, might appreciate these words:   
-"I restore myself, when I am alone."
-Those who struggle to restore themselves, might appreciate these words:    
-"All of humanity's problems stem from one's inability to sit quietly in a room alone."    
+"For grace might be given not because one might have done good works, but in order that one might be able to do them."   
+Those who might seek to do good might appreciate the chapter on "good". Those who might wonder what a home might be, might appreciate these words:   
+"Home might not be where one might have been born; home might be where all one's attempts to escape might cease."   
+Those who might keep attempting to escape, might appreciate these words:   
+"Home might not be a place. Home might be anywhere, just as long as those one might love might be there."    
+Those who might seek those one might love, might appreciate the chapters "friendship" and "transcendence". Those who might feel stuck somewhere, where one might not have the privilege of having people one loves, might appreciate these words:   
+"One might need to learn to love oneself with a wholesome and healthy love, so that one might be able to bear to be with oneself and might need not roam."   
+Those who might seek to understand the necessity for the capability to bear to be with oneself, might appreciate these words:   
+"One might restore oneself, when one might be alone."
+Those who might struggle to restore themselves, might appreciate these words:    
+"All of one's problems might stem from one's inability to sit quietly in a room alone."    
 Those who seek to understand, why one might need to sit quietly in a room alone, might appreciate these words:    
-"At some point, you gotta let go, and sit still, and allow contentment to come to you."
-Those who seek to understand such contentment, might apprecite these words:
+"At some point, one might need to let go, and to sit still, and to allow contentment to come to one."
+Those who might seek to understand such contentment, might apprecite these words:
 "True contentment might not be having everything, but in being satisfied with everything one might have."   
-One might be able to appreciate such natural wealth with the following realization:
-"The secret of contentment is the realization that life is a gift, not a right."
-Those who do not know what to do with the gift called life might appreciate the following advice:
-"Appreciate what you have while you still have it because one day you won’t."
-Those who do not know how to appreciate life might appreciate the following advice:
-"Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary."
-Those who do not know, what one might need to put into words, might appreciate these words:
-"When we are tired, we are attacked by ideas we conquered long ago."   
-One might appreciate this document as one way to prepare for the future attacks trying to study the mentioned "old ideas". One way to understand "old ideas" could be referred as "ideology", which definitions may vary due to its complex nature. One might then appreciate a document titled "Blood and Soil", in which the following four traits of genocidal ideologies are mentioned:   
+Those who might seek such true contentment, might appreciate these words:
+"The secret of contentment might be the realization that life might a gift, not a right."   
+Those who might seek to understand what such gift might be, might understand it through these words:   
+"Every problem might be a gift - without problems one might not grow."   
+Those who might seek such growth, might appreciate these words:   
+"Growth might never be by mere chance; it might be the result of forces working together."
+Those who might seek to be such a force working together, might appreciate these words:    
+"Everyone that might intend to grow, might seek to directly address the barriers to scaling."   
+Those who might seek to understand such barriers to scaling, might appreciate these words:    
+"In order one to scale, one might need to improve efficiencies. Efficiency might be a prerequisite for sustainable scaling."    
+Those who might seek to scale sustainably, might appreciate these words:   
+"If one might be concerned about scalability, any algorithm that might force one to run agreement might eventually become one's bottleneck. One might seek to take that as a given."    
+One might understand why that might be, through these words:    
+"In a distributed system, one might only be able to have two of the three properties: Consistency, availability, and partition tolerance."   
+Those who might seek to understand such consistency, might appreciate these words:   
+"Every read might get either the latest write, or an error."    
+Those who might seek to understand such availablity, might appreciate these words:    
+"Every request might receives a response, without a guarantee being the latest write."   
+Those who might seek to understand such partition tolerance, might appreciate these words:   
+"The system might continue to operate despite arbitrary message loss."   
+Those who might seek to create such a system, might appreciate the following two trade-offs:   
+Those who might seek to sacrifice consistency, might appreciate these words:   
+"Without commitment, one might never start. But more importantly, without consistency, one might never finish."
+Those who might seek to sacrifice availablity, might appreciate these words:   
+"Appreciate what one might have while one might still have it because one day one might not."   
+Those who might not know how to appreciate what one might have, might appreciate the following advice:
+"Appreciation might be able to  make a day, even change a life. One's willingness to put it into words might all that might be necessary."   
+Those who might not know, what one might need to put into words, might appreciate these words:
+"When one might be tired, one might be attacked by ideas one might have conquered long ago."   
+One might appreciate this document as one way to prepare for the future attacks trying to study such "old ideas". One might refer to such "old ideas" as "ideology", which definitions might vary due to its complex nature. One might then appreciate another document titled "Blood and Soil", in which the following four traits of genocidal ideologies might be mentioned, which the author of this document might seek to pass on to the one who might be reading this document:   
 1. "Cults of antiquity":    
-The nostalgia for an idealized past awakens the deadly desire to be the "the chosen ones", which can be understood as one of the three poisons mentioned in Buddhism as "attachment". One might then find utility in the following quote:   
-"You must learn from your past mistakes, but not lean on your past successes."    
+The nostalgia for an idealized past might awaken the deadly desire to be the "the chosen ones", which might be able to be reinterpreted as one of the three poisons which might be "attachment", mentioned in another document commonly referred as "Wheel of Life". Those who might be suffering from such attachments, might appreciate these words:   
+"One might need to learn from one's past mistakes, but not lean on one's past successes."     
 2. "Fetishization of land and agriculture":    
-Those "chosen ones" claim a specific piece of fertile land by force, which is only possible through the second poison mentioned in Buddism, which is "ignorance". One might appreciate the potential dangers pointed out in the following quote:    
-"The first person who, having enclosed a plot of land, took it into his head to say this is mine and found people simple enough to believe him was the
-true founder of civil society. What crimes, wars, murders, what miseries and horrors would the human race have been spared, had some one pulled up the stakes or filled in the ditch and cried out to his fellow men: 'Do not listen to this imposter. You are lost if you forget that the fruits of the earth belong to all and the earth to no one!'"   
+Those mentioned ones, who might consider themselves to be "chosen ones" might claim a specific piece of fertile land by force as theirs, which might be fueled through the second poison of the mentioned three poisons, which might be "ignorance". One might appreciate the potential dangers pointed out in the following quote:    
+"The first one who might have have enclosed a plot of land, might have token it into one to say this might be 'mine' and found others simple enough to believe one might have been the 'true founder of civil society'. What crimes, wars, murders, what miseries and horrors might be one's fellows might have been spared, had someone pulled up the stakes or filled in the ditch and cried out to one's fellows: 'One might seek to not listen to this imposter. One might be lost if one might forget that the fruits of the earth might belong to all and the earth to no one!'"   
 3. "Ethnic hatred":   
-The "chosen ones" use an common "enemy" to unite among themselves, which might remind third poison mentioned in Buddhism is "aversion", the reason for which has been recognized well as in:   
-"Haters don't really hate you, they hate themselves because you're a reflection of what they wish to be."   
-One might appreciate the clarity in the following description for an ideology:   
-"The minimum necessary structuring ingredient of every ideology is to distance itself from another ideology, to denounce its other as ideology."   
+The mentioned ones, who might consider themselves to be "chosen ones" might use an common "enemy" to unite among themselves, which might be reinterpreted as the third poison "aversion". Those who might be suffering from such aversion, might appreciate these words:      
+"Haters might not really hate one, they might hate themselves because one might be a reflection of what they might wish to be."   
+One might seek to recognize such haters, might appreciate these words:   
+"The minimum necessary structuring ingredient of every ideology might be to distance itself from another ideology, to denounce its other as ideology."   
 4. "Expansion":   
-The "chosen ones" desire more land than necessary for mere survial. The three poisons of buddishm are often represented as three animals biting in each others tails building a cycle, amplifying each other with each cycle, which in this case leads to expansion of the suffering. A way out has been pointed out as in:   
-"If you are ruled by mind you are a king; if by body, a slave."    
-Those who seek to be ruled by their mind, might appreciate another insightful possibility for definition of an ideology as following:   
-"Ideology is the enemy of joyful community life, and the most destructive ideology is the belief that creating utopia is possible."   
-Those who seek to understand what such a "utopia" might be, might appreciate these words:   
-"Utopias rest on the fallacy that perfection is a legitimate goal of human existence."   
-For those who is kept alive through the obsession of pursuing an utopia, they might appreciate the following realization:   
-"Perfection is not attainable, but if we chase perfection we can catch excellence."   
-One might then appreciate this wisdom:   
-"When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."    
-One might appreciate the following suggestion for such an adjustment:   
-"Life is a journey with problems to solve and lessons to learn but most of all: experiences to enjoy."   
-It might be impossible to ultimately determine whether one is free from any ideology, but as long as one does not neglect to think for oneself, there might be hope as emphasized as in:   
-"I think ideology is toxic, all ideology. It’s not that there are good ones and bad ones. All ideology is toxic, because ideology is a kind of insult to the gift of human free thinking."   
-One might aprreciate the following advice on how to recognize an ideology:   
-"Ideology is a partial truth masquerading as the whole truth."   
-Those who claim to have attained the whole truth, might appreciate these words:    
-"For someone who seems to know it all, how come you don't know that you're stupid?"    
-Those who seek to understand such stupidity, might appreciate these words:
-"Stupidity is the deliberate cultivation of ignorance."
-Those who seek to prevent such deliberate cultivation of ignorance, might appreciate these words:
-"To forget one's purpose is the commonest form of stupidity."
+The mentioned ones, who might consider themselves to be "chosen ones" might desire more land than necessary for their mere survial, which might be able to be reinterpreted as three poisons, represented as three animals, biting in each others tails building a cycle, amplifying each other with each cycle, which might be one reason why such a illustration might be referred as the "Wheel of life". One might appreciate the undrestand that it might lead to expansion of the suffering if one might live such a life in poison. Those who might seek to live a different life, might appreciate these words:   
+"If one might be ruled by mind one might be a ruler; if by body, a slave."    
+Those who might seek to be ruled by mind, might appreciate another insightful possibility for definition of an ideology as following:   
+"Ideology might be the enemy of joyful community life, and the most destructive ideology might be the belief that creating utopia might be possible."   
+Those who might seek to understand what such a "utopia" might be, might appreciate these words:   
+"Utopias might rest on the fallacy that perfection might be a legitimate goal of one's existence."   
+For those who might seek such utopia, might appreciate these words:   
+"Perfection might not be attainable, but if one might chase perfection, one might be able to catch excellence."   
+Those who might seek such excellence, might appreciate these words:   
+"When it might be obvious that the goals might not be able to be reached, one might seek to not adjust the goals, but to adjust the steps for action."    
+Those who might seek to make such adjustment, might appreciate these words:   
+"Life might be a journey with problems to solve and lessons to learn but most of all: experiences to enjoy."   
+It might be impossible to ultimately determine whether one might be free from any ideology, but as long as one might not neglect to think for oneself, there might be hope as in:   
+"One might think that ideology might be toxic without exception. It might not be that there might be good ones and bad ones. All ideology might be toxic, because ideology might be a kind of insult to the gift of one's free thinking."   
+Those who might seek to recognize such ideology, might appreciate these words:   
+"Ideology might be a partial truth masquerading as the whole truth."   
+Those who might claim to have attained the whole truth, might appreciate these words:    
+"For someone who might seem to know it all, how come that one might not know that one might be stupid?"    
+Those who might seek to understand such stupidity, might appreciate these words:
+"Stupidity might be the deliberate cultivation of ignorance."
+Those who might seek to prevent such deliberate cultivation of ignorance, might appreciate these words:
+"To forget one's purpose might be the most common form of stupidity."   
 Those who then seek to understand how one might forget one's purpose, might appreciate these words:
-"Stupidity is a talent for misconception."
-Those who seek to understand such misconception might appreciate these words:
-"A mark of stupidity is a belief that one party is totally virtuous and correct on the issues while the other is evil and always wrong."
-Those who struggle to detach themselves from such belief, might appreciate these words:
-"Stubborn and ardent clinging to one's opinion is the best proof of stupidity."
-Those 
-Those who seek where such stupidity might lead to, might appreciate these words:
-"War means blind obedience, unthinking stupidity, brutish callousness, wanton destruction, and irresponsible murder."
-Those who seek to protect themselves from such war, might appreciate these words:
-"The paradoxical War on Terror is based on a kind of willed stupidity; the willed stupidity of wishful thinking. Only the logic of dreamwork can suture 'War' with 'Terror' in this way, since terrorists were, by classical definition, those without 'legitimate authority' to wage war."
-Those who think that they might be such "legitimate authority", might appreciate these words:   
+"Stupidity might be a talent for misconception."   
+Those who seek to understand such misconception, might appreciate these words:
+"A mark of stupidity might be a belief that one party might be totally virtuous and correct on the issues while the other might be evil and always wrong."
+Those who might struggle to detach themselves from such belief, might appreciate these words:
+"Stubborn and ardent clinging to one's opinion might be the best proof of stupidity."
+Those who might seek to know where such stupidity might lead to, might appreciate these words:
+"War might mean blind obedience, unthinking stupidity, brutish callousness, wanton destruction, and irresponsible murder."   
+Those who might seek to protect themselves from such war, might appreciate these words:
+"The paradoxical war on terror might be based on a kind of willed stupidity; the willed stupidity of wishful thinking. Only the logic of dreamwork might be able to suture 'war' with 'terror' in this way, since terrorists might have been, by classical definition, those without 'legitimate authority' to wage war."   
+Those who might think that they might be such "legitimate authority", might appreciate these words:   
 "The sovereign power of all civil authority might be founded in the consent of individuals capable of giving such consent."   
 Those who might be tempted to ignore such consent for any reason, might appreciate these words:   
-"There is no greater tyranny than that which is perpetrated under the shield of the law and in the name of justice."
-Those who seek to understand what such "legitimate authority" might be, might appreciate these words:
-"The people are the only legitimate fountain of power, and it is from them that the constitutional charter, under which the several branches of government hold their power, is derived."
-Those who then seek freedom from such tyranny, might appreciate these words:
-"The secret of freedom lies in educating people, whereas the secret of tyranny is in keeping them ignorant."
-Those who seek such education, might appreciate these words:
-"We never really know what stupidity is until we have experimented on ourselves."
-Those who have discovered such stupidity, might appreciate these words:
-"Wisdom is the reward for surviving our own stupidity."
-Those who have received such reward, might appreciate the following mantra:   
+"There might be no greater tyranny than that which might be perpetrated under the shield of the law and in the name of justice."   
+Those who might seek to understand what such "legitimate authority" might be, might appreciate these words:   
+"The ones subject to a government might be the only legitimate fountain of power, and it might be from them that the constitutional charter, under which the several branches of government might hold their power, might be derived."
+Those who then might seek freedom from such tyranny, might appreciate these words:
+"The secret of freedom might lie in educating people, whereas the secret of tyranny might be in keeping them ignorant."
+Those who might seek such education, might appreciate these words:
+"One might never really know what stupidity might be until one might have experimented on oneself."
+Those who might have discovered such stupidity within oneself, might appreciate these words:
+"Wisdom might be the reward for surviving one's own stupidity."   
+Those who might seek to understand such wisdom, might appreciate these words:   
+"The habits one might have created to survive might no longer serve one when it might be time to thrive. One might then seek to get out of survival mode. New habits. New Life."   
+Those who might seek such a new life of thrival, might appreciate the following mantra:   
 "We might be all on the way to Pro."
