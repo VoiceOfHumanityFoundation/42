@@ -42,6 +42,10 @@ Those who might seek to understand such partition tolerance, might appreciate th
 "The system might continue to operate despite arbitrary message loss."   
 Those who might seek to create such a system, might appreciate the following two trade-offs:   
 Those who might seek to sacrifice consistency, might appreciate these words:   
+"Effort might mean nothing without consistency."   
+One might understand one reason, why that might be through these words:   
+"Without effort, one's skill might be nothing more than what one might have done but one might have not."   
+Those who might seek to make such effort, might appreciate these words:   
 "Without commitment, one might never start. But more importantly, without consistency, one might never finish."
 Those who might seek to sacrifice availablity, might appreciate these words:   
 "Appreciate what one might have while one might still have it because one day one might not."   
