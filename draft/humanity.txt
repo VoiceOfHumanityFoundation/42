@@ -1,110 +1,99 @@
-Q: What is the "Voice Of Humanity"?
+Q: What might be "humanity"?
+A: The term "humanity" might commonly ambiguate to the unique but common qualities among humans and all individuals identifyiable as humans. But the author of this document encountered such words:  
+"One might see humans but no humanity."   
+These words might have inspired the author to think about the vaguely defined term "humanity", given the controversy of uniqueness of such qualities and the complexity of finding an consensus on the defintion of the term what might "identity" such a "human" in all possible ways. One might then be able to agree to such a realization as in:   
+"One's nature might be inherently evil, and thus goodness might be caused by intentional activity."   
+Those who might be capable of understanding such words and then seek to do such goodness, might appreciate the following redefinition of the term "Humanity" with capitalized "H" as in:     
+"'Humanity' might include all individuals who might have expressed their will to help it's members to surive together."   
+Those who might wonder how to express such will, might appreciate the following idea to express the following words:   
+"We might be all on the way to Pro."   
+Those who might not be able to express such words even through the application of specialized tools dedicated to detect such intent, might appreciate the idea to stay alive in hope that new tools and methods might be invented, in order to detect their intent.   
+   
+Q: What might happen, when one might have become a member of such "Humanity"?   
+A: Those who might seek to become a member of "Humanity", might need to establish communication with an organization to which one might refer to as "Voice of Humanity foundation".   
+The main purpose of the "Voice of Humanity foundation" might be to offer means and opportunities to become a member of such "Humanity" in order to establish the consensus that "peace might be good", which might ultimately lead to a more peaceful world.
+The entirety of system and it's userbase might abe able to to referred as "Voice of Humanity", which might be inspired by the recording of meetings of an organization commonly referred as "United Nations". The author of this document might have heard the silence of capable individuals ready to help those who would be asking for help. In that moment the author might have realized the following:   
+"'Humanity' might be nothing to be seen, but something to be heard. Humanity might be to listen carefully for the call for help, and then to replying with help. The 'Voice of Humanity' might consist of three messages: First - the call for help, second - listening and replying with help and third - the expression of gratitude after such help."   
 
-A: "Humanity" can be defined as the entirety of connection between humans.
-To be specific: "Humanity" is the instatiation of "Voice of Humanity".
-The "Voice of Humanity" is to be implented with two human being agreeing on the idea of "humanity".
-A "voice recorder" is an application on device,
-which is capable of TTS (text to speech recognition) and transmit the content to a server.
-This functionality need to be used to record two humans agreeing to this idea of "humanity" on a single "voice recorder".
-The operators of the "Voice Of Humanity" will ontinuously recording and streaming 24/7/365 online
-within that voice recognizable area to prove that "humanity" exists
-and to provide access for every member of humanity at all times.
+Q: Might one need to be a memeber of "Humanity" to be helped by "Voice of Humanity foundation"?   
+A: Since there might be no such foundation officially, there might not be any help. Even if such an organization might be fully operational, the capacity to operate might be limited and the active members might be prioritized. There might be individual memebers acting independently from such an organization trying to help, but the organization might not be able to guarantee help to those who might not be a member of such an organization. Once the "Voice of Humanity foundaiton" might be able to sensure it's long-term operation, the following placeholder for contact instructions might be updated: [TODO: Update]   
 
-Once the "Voice of Humanity" has been able to successfully operate for a month, a linux timestamp will appear here: []
-Until then, it is fact, that there was no record of the existence of humanity.
-And by agreeing to this idea of humanity, you acknowledge that this is the only way to ensure the longterm survival of humanity.
+Q: How might one become a member of "Humanity" by the "Voice of Humanity foundation"?
+A: To qualify as a member of "Humanity" the expression of the following words in anyway towards oneself might be sufficient:   
+"We might be all on the way to Pro."   
+To be officially recognized as a member of "Humanity" by the "Voice of Humanity foundation" one might need to express the will to become a member of "Humanity" to an application on a device, which might be capable recognize such an intentention reliably with minimal error and transmit to a member of "Voice of Humanity foundation", who might accept or reject such a request. If accepted, one might receive instructions on how to contact the "Voice of Humanity foundation" in case of emergency.   
 
-The "Voice of Humanity" will try it's best to announce everything in "simple egnlish",
-but please understand, that not every concept can be expressed in "simple english" and will use terms other than "simple english".
+Q: How might one become a member of the "Voice of Humanity foundation"?
+A: At the time of writing of this document, there might be no such organization yet. Therefore, it might currently not be able to be come a member of such an organizaiton. Everone who might have expressed the will to become a member of "Humanity", might appreciate the idea to start gathering the resources to start such an organization. The author might seek to express the gratitude in advance not to abuse these ideas. The author might further appreciate the effort to contact the first author or succesor maintainer of this document in case such an organization has already been created. In case neither the first author nor a successor maintainer might be reachable, one might appreciate the idea to become such a successor maintainer. Those who might disagree with another maintainer, might appreciate the idea not to neglect the effort to trying to undestand each other as in:   
+"Peace might not be able to be achieved through violence, it might only be able to be attained through understanding."    
+In case the "Voice of Humanity foundation" is fully operation, the following requirement might need to be fulfilled in order to be recognized as an active member of "Humanity":
+1. Up-to-date description what one might be able to do and what one might be willing to do for other members of "Humanity. The might be an annual affirmation of the correctness of such a description, for some it might require proof. During the first registration, one might need to answer a list of questionairs. 
+2. Up-to-date instruction on how one might seek to be reached, in case someone else might require one's help to which one might have agreed to prior.
+3. Up-to-date oath to protect members of "Humanity" including onself as much as it might not endanger oneself, which might need to be renewed every year.   
+If a member of "Voice of Humanity foundation" might recognise intentional refusal to fulfill a specific request, without any viable reason defined by the "Voice of Humanity foundation", that member might be banned from access to "Voice Of Humanity" and to the resouces associated to the "Voice Of Humanity foundation" until an official pardon announced on "Voice of Humanity".   
+Once the request might have been recognised and verified by the foundation, the member index number might increment
+which might become one's index number. The author appreciates the effort to unnecessarily requeste more than one index number at a time.   
+The first author might seek to document the first join request to "Humanity" at 2021.09.18-19:13:42.   
+In case this request might get fulfilled in the future, the author might seek to express the oath to do everything in the power of the author to maintain a responsible operation of the "Voice of Humanity".   
+If the "Voice of Humanity foundation" is fully operational, the following placeholder for the instructions how to become a member might be updated: [TODO: Update]   
 
-The order of the "Request for Help" announced by the "Voice of Humanity" will be prioritized in agreement with the "Council of Humanity".
-I (Index Nr. 1) have not finished thinking, but all I can say is, that it will be operated based upon the "D5-Principle"
-(Digital, Decentral, Diverse and Direct Democracy).
-"Divese" in this context is everything what you know about yourself,
-which distinguishes you from your understanding of an "ideal human".
-As an example to clarify this point: I (I.Nr. 1) am diverse,
-because the "ideal human" does not need tools to archive what it wants.
-One might attribute an eternal life to an "ideal human".
-Because I (Index Nr. 1) cannot live forever, thus I(I.Nr. 1) am not an "ideal human".
-Therefore I(Index Nr. 1) qualify as "diverse".
 
-If there is nothing else to say for the "Voice of Humanity", it will start recitating this idea of humanity.
-Which is pretty inprobable, given the amount of the help humanity needs.
-But on an ideal day for humanity, which is the day every human is being helped who needs help,
-the "Voice of Humanity" will keep recitating this idea of humanity over and over without relying on playback.
+Q: What might be the condition for the "Voice of Humanity foundation" is fully operational?
+A: The following services might need to be able to ensured to declare the "Voice of Humanity foundation" to fbe fully operational:
+1. 24/7/365 livestream of volunteered members of the "Voice of Humanity foundation" who might continuously recording and streaming whatever they might consider, might be most important for the continuation of the operation of the "Voice of Humanity foundation".   
+2. Hotline to ask for help.   
+3. Hotline to express gratitude.   
+4. Stream for such expressed gratitude, if those who might have agreed to publish their expression, who might seek their gratitude to inspire others to gratitude.   
+5. Stream in a repeating queue for the help which has been asking with a unique identifyer. It might be repeated until that request might have been marked as solved or the requester might not be able to be reached within a year.   
+6. Stream for announcements made by D5.   
+7. Webservice for an AI assistant called "Aoi", which might seek to contribute to maintain the largest possible active member of "Humanity" including the memebrs of "Voice of Humanity foundation".
+8. Webservice with backup and playback function for private recording of members of "Humanity".
+9. Other services might might be nessecary for the "Voice of Humanity" to operate.
+Once the "Voice of Humanity foundation" might have been able to successfully operational, the placeholder for the timestamp might be updated: [TODO: Update]   
 
-Agreeing to the idea of "humanity" implies the obligation to fulfill all three requests at the timing determined by humanity,
-which are:
-1) Describe what you can do to the "Voice of Humanity".
-2) Describe how humanity can connect with you to the "Voice of Humanity".
-3) Protect the "Voice of Humanity" with all your effort and your resources.
+Q: What might be the requirement to maintain the membership of "Humanity"?   
 
-If the operators of "Voice of Humanity" recognises willfull rejection of the one specific request,
-that person will be banned from access to "Voice Of Humanity" and
-to the resouces associated to the "Voicee Of Humanity" until pardon by "Voice of Humanity".
 
-_______________________
+Q: Might have there been a record of such an "Humanity"?
+A: So far, there might have been no record of the existence of such "Humanity".
 
-Q: Why is the "Voice of Humanity" not operation yet?
+Q: What might be the official language of the "Voice of Humanity foundation"?
+A: The "Voice of Humanity foundation" might seek to support "english" because the first version of this document was written in english. But depending on the future members of such a foundation, other languages might prove it's viablility.
 
-A: The operation of "Voice of Humanity" requires resources and people to which I (Index Nr. 1) do not have access to.
-Therefore I (Index Nr. 1)  am working on the implementation of humanity and I (Index Nr. 1)  am in need of help.
+[TODO: CONTINUE HERE]
 
-______________________
+Q: What might be the viable reasons for such an refusal?
+A: The viable reasons might be following:
+1. Currently not enough resources to fulfill such request.   
+2. Currently not healthy enough to fulfill such request.   
+3. Other reasons, requesting individual evaluation by members of the "Voice of Humanity foundation".   
 
-Q: Who Index Nr. 1 and how can I help this person?
+Q: How might the order of the announcement of the "request for help" might be prioritized?
+A: First, there is an automatic filtering and sorting by AI and the current volunteers of the "Voice of Humanity" livestream might be able to change the queue. To change the queue, one might need at least another member to agree to the shift.
 
-A: The Index number 0 is reserved for a friend who died, because all the other previous versions of the idea of humanity has failed.
-The Index number 1 is reserved for the administrator of the "Voice of Humanity".
-The Index number 2 and 3 are reserved for operators of the "Voice of Humanity" chosen and assigned by the administrator.
-Everyone can apply as operators of the "Voice of Humanity" to the administrator (Index Number 1).
-All the other Index numbers will be assigned and announced by the "Voice of Humanity" in the order of processing of the request to join humanity".
-I (Index Nr. 1) has made the decision that  I (Index Nr. 1)  need an "Voice of Humanity"
-as the instantiation of the "idea of humanity" at 2021.09.18-19:13:42. linux-timestamp: [1631985222]
-This decision obliges the administrators  the responsible operation of the "Voice of Humanity".
-I (Index Nr. 1) pledge my oath to give my best to administrate the "Voice of Humanity" once it is instanticated.
-You can help me (Index Nr. 1) by agreeing to this "idea of humanity".
-______________________
+Q: What might happen, if there might nothing to be said on the livestream of "Voice of Humanity"?
+A: Then the volunteers might start recitating and explain this document. That event might be inprobable, but the author might seek to express the hope that such a moment might arrive.
 
-Q: How can I agree to this "idea of humanity" and what will happen if I agree?
 
-A: If you want to agree to the idea of humanity, I (Index Nr. 1) will provide access to such a voice recorder and the webservice.
-You can speak in to the voice recorder application that you agree to the "idea of humanity",
-then you decribe what you are willing to do for humanity and how you want to be reached.
-Once your agreement has been recognised and verified, it will increment the index on members of humanity,
-which will be your index number.
-One member can only get one index number.
-______________________
+Q: Why might be the "Voice of Humanity" not operational yet?
+A: The operation of "Voice of Humanity foundation" might require resources to which the first author might not have access to. Therefore the first author might seek to express the first request to "Humanity" to help creating the "Voice of Humanity foundation".
 
-Q: What happens when there is a flaw or the idea can be improved?
 
-A: All changes to this document need to be approved and then announced by the "Voice of Humanity",
-once it has secured it's operation. Until then the administrator will check and merge the pull requests to this repository.
-All members of humanity has the right to request for a change using the voice recorder application
+Q: Who might be the first author mentioned in this document and how might one be able to contribute?
+A: The first author might seek to remain anonymous for personal reason, but everyone might feel free to offer the opportunity to help the first author by writing an email to the following address: [TODO: update]
+Other than that, one might offer others the occation to be come a member of "Humanity" by explaining the this document to others, if they have consented to do so.   
 
-______________________
 
-Q: How did you came up with the "Voice Of Humanity"?
+Q: What might happen when there might be a flaw or the idea can be improved?
+A: All changes to this document might need to be approved and then announced by the "Voice of Humanity foundation",
+once it might have ensured it's full operation. Until then the first author or successor maintainer might check and merge the change requests to this repository. Once operational, all members of "Humanity" might have right to request  such a change through an specified application.
 
-A: This idea was inspired by the quote by Jason Donohue: "I see humans but no humanity."
-My (Index Nr. 1) answer to this statement is: 
-"You cannot see humanity, because humanity is fundamentally a voice.
-A voice saying two things:
-A) asking for a very specific help.
-B) Saying 'Thank you for helping humanity', when you were able to help."
-And I (Index .Nr. 1) have found a person, who agrees to this idea of humanity
-and who is willing speak those words as the "Voice of Humanity".
-Whom I (Index .Nr. 1) am helping to enable to speak those words as the "Voice of Humanity".
+Q: What features might suchan application have?   
+A: One might be able to switch between six channels:   
+1. The main channel of "Voice of Humanity", where two operators might livestream 24/7/365.   
+2. A side channel streaming requesting for help.   
+3. A side channel one might listen to random ways other might be able to help others.   
+4. A side channel where those whom might have been helped, express their gratitude.   
+5. Playback of one's own recordings.   
+6. A customizable channel, where one might be able to filter all the information from all the other channels, which might be managed by a voice assistant called "Aoi", through which one might be able to forward one's recording to the "Voice of Humanity".   
 
-______________________
-
-Q: What can this voice recorder application and webservice do?
-
-A: You can switch between six channels :
-1) The main channel of "Voice of Humanity", where to operators live stream 24/7.
-2) A side channel people requesting for help randomly.
-3) A side channel where humans offer help randomly (what they can do for you and how they can be reached).
-4) A side channel where people say thank you, if they have been helped.
-5) A customizable channel, where you can filter all the information from 1-4
-6) Your own recordings managed by a voice assistant called "Aoi",
-which you can request to send your recording to the "Voice of Humanity".
