@@ -14,7 +14,6 @@ joy
 harmony
 friendship
 patience
-humor
 responsibility
 originality
 clarity
@@ -39,4 +38,5 @@ promise
 D5
 foundation
 prompt
+requirements
 ultimate
