@@ -1,6 +1,6 @@
 ---
 title: "42"
-subtitle: "An eternal draft for an agnostic religion called 'art', which might be designed to cultivate a consensus on the definition of love without resorting to metaphysics."
+subtitle: "An effort to reverse engineer world peace through an eternal draft for an agnostic religion called 'art', which might be designed to cultivate a consensus on the definition of love without resorting to metaphysics."
 author: "Someone, who might be on the way to Pro."
 date: \today
 ---  
