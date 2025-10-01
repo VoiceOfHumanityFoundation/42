@@ -13,3 +13,5 @@ A member might need to agree to the idea mentioned in the chapter on "humanity" 
 online AI assisted voice recording web application called "Aoi".
 3. Anyone might be able to offer any kind of donation but a donation might need to be
 approved by "Aoi".
+4. Ask the following question:   
+"How might all of us be on the way to Pro?"

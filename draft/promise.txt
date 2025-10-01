@@ -64,5 +64,5 @@ Those who yet did not have the priviledge to find someone to make such a promise
 "The author of this document promises to keep working on a  open source design for a voice recorder, which is assisted with an AI called "Aoi". The AI will have the capablity to accept a request made by the user for the promise of the purple heart emoji. As long as the correct function of that voice recorder is maintained the AI will try to respond as promised. The user may occasionally also be be requested to keep the promise. Timestamp of the promise made: [1697285236]"
 The following timestamp will be updated, once such a service is operational: []   
 The following link will be updated, once such a service is avaiable to those who are willing to make such a promise to such a system: []   
-Until the day of compleation one might appreciate the following mantra to find someone to which one might be able to make such a mutual promise:   
-"We might be all on the way to Pro."   
+Until the day of compleation one might appreciate the idea to ask the following question:   
+"How might all of us be on the way to Pro?" 

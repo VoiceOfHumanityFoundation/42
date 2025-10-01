@@ -220,7 +220,9 @@ Notes on implementation of the bots:
 - If one might recognizse malitious action, one might seek to report that action proactively to the moderators. 
 
 
-3. Quiz generator bot
+3. Explainer bot
+
+4. Quiz generator bot might ask such a question:   
+"How might all of us be on the way to Pro?"
 
 
-4. Explainer bot
