@@ -1,0 +1,14 @@
+{
+  "name": "42",
+  "version": "1.0.0",
+  "homepage": "https://VoiceOfHumanityFoundation.github.io/42",
+
+  "scripts": {
+    "deploy": "gh-pages -d html" 
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
