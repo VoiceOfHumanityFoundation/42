@@ -3,7 +3,7 @@ good
 unity
 needs
 character
-privilege
+faith
 home
 curiosity
 feedback
