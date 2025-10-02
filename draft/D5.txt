@@ -223,6 +223,6 @@ Notes on implementation of the bots:
 3. Explainer bot
 
 4. Quiz generator bot might ask such a question:   
-"How might all of us be on the way to Pro?"
+"How might we all be on the way to Pro?"
 
 
