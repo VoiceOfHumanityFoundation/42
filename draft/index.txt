@@ -10,7 +10,6 @@ feedback
 hope
 imagination
 courage
-joy
 harmony
 friendship
 patience
@@ -39,4 +38,5 @@ D5
 foundation
 prompt
 requirements
+guideline
 ultimate
