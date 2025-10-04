@@ -19,7 +19,6 @@ clarity
 integrity
 hero
 meaning
-mission
 transcendence
 obituary
 soul
@@ -39,4 +38,5 @@ foundation
 prompt
 requirements
 guideline
+untitled
 ultimate
