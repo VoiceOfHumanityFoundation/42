@@ -1,6 +1,6 @@
 ---
 title: "42"
-subtitle: "An eternal draft for a philosophy called 'ultimate art', which might be an effort to reverse engineer long-term sustainable world peace through the cultivation of a consensus on the definition of love without resorting to metaphysics."
+subtitle: "An eternal draft for a philosophy called 'ultimate art', which might be an effort to reverse engineer sustainable world peace through the cultivation of a consensus on the definition of love without resorting to metaphysics."
 author: "Someone, who might be on the way to Pro."
 date: \today
 ---  
