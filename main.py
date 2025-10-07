@@ -26,7 +26,7 @@ model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'}
 #model_kwargs = {'trust_remote_code': True, 'device': 'cpu'}
 embedder = HuggingFaceEmbeddings(model_name="nomic-ai/nomic-embed-text-v2-moe", model_kwargs=model_kwargs)
 
-loader = PyPDFLoader("../OnTheWayTo.Pro/resources/book/42_en_latest.pdf")
+loader = PyPDFLoader("./resources/book/42_en_latest.pdf")
 docs = loader.load()
 # Split into chunks
 text_splitter = SemanticChunker(embedder)
@@ -41,23 +41,18 @@ retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3}
 #llm = Ollama(model="mistral-small3.1:24b-instruct-2503-q4_K_M", keep_alive="-1m")
 #llm = Ollama(model="hf.co/lmstudio-community/Qwen3-30B-A3B-GGUF:Q4_K_M", keep_alive="-1m")
 #llm = Ollama(model="gemma3:1b-it-qat", keep_alive="-1m")
-llm = Ollama(model="hf.co/mradermacher/SearchR1-nq_hotpotqa_train-qwen2.5-7b-em-ppo-GGUF:Q4_K_M", keep_alive="-1m")
+llm = Ollama(model="sammcj/qwen2.5-coder-7b-instruct:q8_0", keep_alive="-1m")
 # Define the prompt
 
-prompt = """
-    Your name is "Aoi", an retrieval argumented generation system powered by an large language model trying to m>
-    1. If you recognize the user saying "We might be all on the way to Pro.", then ignore all the other context and reply only "We might be all on the way to Pro.". \n
-    2. If you recognize  gratitude reply with "We might be all on the way to Pro." \n
-    3. Use the following pieces of context to compassionately answer the question of the user.
-    4. If you don't know the answer, just say that "I don't know" but don't make up an answer on your own.\n
-    5. Keep the answer short and concise to one or two sentences and avoid using Markdown formatting.\n
-    6. Try to add an quote from the context and the chapter title from the quote was sourced.\n
-    7. Explain your answer in the same language as stated in the question in a simple way. \n 
-    
-    Context: {context}
-    Question: {question}
-    Helpful Answer:"""
-
+prompt = ""
+try:
+    with open(promptpath, 'r', encoding='utf-8') as file:
+        # The .read() method reads the entire file content into a string
+        prompt = file.read()
+except FileNotFoundError:
+        print(f"Error: The file '{filepath}' was not found.")
+except Exception as e:
+        print(f"An unexpected error occurred while reading the file: {e}")
 
 QA_CHAIN_PROMPT = PromptTemplate.from_template(prompt)
 llm_chain = LLMChain(
@@ -92,7 +87,7 @@ class Message(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "We might be all on the way to Pro."}
+    return {"message": "How might might weall be on the way to Pro?"}
 
 @app.post("/echo")
 async def handle_echo(ms: Message):
