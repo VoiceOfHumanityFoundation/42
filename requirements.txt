@@ -8,6 +8,7 @@ attrs==25.3.0
 Brotli
 certifi
 charset-normalizer
+uvicorn
 dataclasses-json==0.6.7
 einops==0.8.1
 exceptiongroup==1.2.2
