@@ -31,12 +31,18 @@ docs = loader.load()
 print("Loading model ok")
 # Split into chunks
 text_splitter = SemanticChunker(embedder)
+print("Splitting document...")
 documents = text_splitter.split_documents(docs)
+print("Splitting document ok")
 # Instantiate the embedding model
 #embedder = HuggingFaceEmbeddings()
 # Create the vector store and fill it with embeddings
+print("Loading vector...")
 vector = FAISS.from_documents(documents, embedder)
+print("Loading vector ok")
+print("Loading Retriever...")
 retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+print("Loading Retriever ok")
 # Define llm
 #llm = Ollama(model="hf.co/lmstudio-community/Qwen3-30B-A3B-GGUF:Q3_K_L", keep_alive="-1m")
 #llm = Ollama(model="mistral-small3.1:24b-instruct-2503-q4_K_M", keep_alive="-1m")
