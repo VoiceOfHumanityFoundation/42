@@ -47,7 +47,7 @@ regenerateUntil=36
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)]
 gc.collect()
 torch.cuda.empty_cache()
-inputPath="../OnTheWayTo.Pro/"
+inputPath="../../draft/"
 outputPath="./translated/"+language+"/"
 #os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
@@ -121,3 +121,4 @@ with open(inputPath+"index.txt", "r") as index_file:
             with open(inputPath+title+".txt", 'r') as file:
                 translate(file.read(), title+".txt")
 print("done")
+
