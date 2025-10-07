@@ -41,9 +41,10 @@ retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3}
 #llm = Ollama(model="mistral-small3.1:24b-instruct-2503-q4_K_M", keep_alive="-1m")
 #llm = Ollama(model="hf.co/lmstudio-community/Qwen3-30B-A3B-GGUF:Q4_K_M", keep_alive="-1m")
 #llm = Ollama(model="gemma3:1b-it-qat", keep_alive="-1m")
+print("Loading model...")
 llm = Ollama(model="sammcj/qwen2.5-coder-7b-instruct:q8_0", keep_alive="-1m")
 # Define the prompt
-
+print("Loading model ok")
 prompt = ""
 try:
     with open(promptpath, 'r', encoding='utf-8') as file:
