@@ -22,6 +22,8 @@ import json
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 
+promptpath = "./draft/prompt.txt"
+
 model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'}
 #model_kwargs = {'trust_remote_code': True, 'device': 'cpu'}
 embedder = HuggingFaceEmbeddings(model_name="nomic-ai/nomic-embed-text-v2-moe", model_kwargs=model_kwargs)
