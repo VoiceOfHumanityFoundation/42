@@ -13,5 +13,5 @@ One might find oneself seeking to contribute to this document. Those might appre
 12. Every chapter might need to contain a point at which one might need to confront oneself or be confronted by the world.   
 13. Every chapter might need to avoid using the same quote within that chapter.   
 14. Every chapter might need to be free of contradiction of the current state of the art science.
-15. Every chapter might need to end with: "How might we all be on the way to Pro?"
+15. Every chapter might need to end with: "How might everyone be on the way to Pro?"
 

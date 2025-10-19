@@ -14,4 +14,4 @@ online AI assisted voice recording web application called "Aoi".
 3. Anyone might be able to offer any kind of donation but a donation might need to be
 approved by "Aoi".
 4. Ask the following question:   
-"How might we all be on the way to Pro?"
+"How might everyone be on the way to Pro?"

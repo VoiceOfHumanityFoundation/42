@@ -23,7 +23,7 @@ One might then be able to appreciate the following enumeration of requirements f
 5. Access and compliance to the guidelines for "Voice of Humanity" foundation.   
 6. Custom wake word "Aoi" to activate access to the server. 
 7. Ability for conversational guidance asking the following question:   
-"How might we all be on the way to Pro?"  
+"How might everyone be on the way to Pro?"  
 
 
 

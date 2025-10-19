@@ -97,5 +97,5 @@ A: One might be able to switch between six channels:
 5. Playback of one's own recordings.   
 6. A customizable channel, where one might be able to filter all the information from all the other channels, which might be managed by a voice assistant called "Aoi", through which one might be able to forward one's recording to the "Voice of Humanity".   
 Until then one might appreciate the idea to ask the following question:   
-"How might we all be on the way to Pro?"
+"How might everyone be on the way to Pro?"
 
