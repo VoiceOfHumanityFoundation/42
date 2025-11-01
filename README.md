@@ -1,5 +1,5 @@
 Disclaimer: One might appreciate the trigger warning regarding the topics such as mental health, science, metaphysics, religion and politics. For more details one might seek to refer to the legal disclaimers.   
-   
+    
 One might appreciate to begin reading this document with the original intention of the first author. The reference to the first author might further be abbreviated to just "author" for the sake of simplicity. The main purpose of this document might be to offer a series of definitions on controversal or vaguely defined terms in order to enable the maximal possible amount of agreements of the consensus on the defintion of the word 'love', which might be a prerequisite to achieve sustainable world peace.    
 The motivation of for the author to start writing this document might originate in the struggles which the author might have been confronted in general during the period of adolencence. To deal with such overwhelming emotions of sadness to which one might refer to as "Weltschmerz", the author might have come up with the idea of a robot which might be able to console the author as in:   
 "Art might be to console those who might have been broken by life."    
