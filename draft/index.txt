@@ -20,7 +20,7 @@ integrity
 hero
 meaning
 transcendence
-obituary
+farewell
 soul
 consciousness
 realization
@@ -36,7 +36,7 @@ promise
 D5
 foundation
 prompt
-requirements
 guideline
+letter
 life
 ultimate
