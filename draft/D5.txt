@@ -1,5 +1,5 @@
-Disclaimer: This document is just a collection of ideas on the possible approach for the technical implementation of a democratic system and is not intended to be an appell to overthrow an real existing government.
-If there is an issues in this document which might be in contradiction to that intention the feedback for improvement will be appreciated and this document will be updated as soon as possible. 
+Disclaimer: This document might just be a collection of ideas on the possible approach for the technical implementation of a democratic system and might not be intended to be an appell to overthrow an real existing government.
+If there might be issues in this document which might be in contradiction to that intention the feedback for improvement might be appreciated and this document might be updated as soon as possible. 
 
 "D5" might stand for Digital Decentral Diverse Direct Democracy:
 
@@ -11,7 +11,7 @@ To minimize the risk of corruption by data manipulation and monopolization, data
 Diversity might be difficult to measure and thus to represent, especially for those who might be less priviledged.
 By giving access to those who might be able to have a vote in favor of such a system, one might seek be able to productively contribute.
 
-Direct democracy might be generally difficult to implement, one reason might be because it might require enourmous resources to process all information by all citizens. If such a system would be moderated by agentic software and other citizens and not only by those who are employed by a governmental bureaucracy there might be enough processing power to let all citizens contribute directly to the final decisions, thus reducing the possiblity of abuse of power by corrupt representatives. To be compatible with as many of the current representation based democractic political systems, the announcement of the decisions made by the D5 system might be done by elected volunteers, saying that if D5 has been elected as the absolute majority one day, that the draft for changes which has been announced, will be applied as announced.
+Direct democracy might be generally difficult to implement, one reason might be because it might require enourmous resources to process all information by all citizens. If such a system would be moderated by agentic software and other citizens and not only by those who might be employed by a governmental bureaucracy there might be enough processing power to let all citizens contribute directly to the final decisions, thus reducing the possiblity of abuse of power by corrupt representatives. To be compatible with as many of the current representation based democractic political systems, the announcement of the decisions made by the D5 system might be done by elected volunteers, saying that if D5 has been elected as the absolute majority one day, that the draft for changes which has been announced, will be applied as announced.
 
 Democracy by citizens subject to such a government might be necessary to avoid fatal errors unavoidably existing in a fully automated system.
 
@@ -22,7 +22,7 @@ The D5 might require the following to operate:
 1.2 Fast and decisive citizens: Their role might be to understand the proposed solutions, comparing them and deciding as fast as possible which might be the one with the most chance or least damage.
 
 2. Operating Personell:
-2.1. Administrators, who might maintain the infrastructure of such a system. The core system might be open source, so anyone might be able to review the system and improve it. There might need to be enough administrators, who might be able to be paid eventhough volunteering is desirable, so errors might be able to be fixed as soon as possible and the webservice is constantly kept online. Only through the course of operation might be able to tell how many administrators might be required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and and a 7th administrator for any eventualities.
+2.1. Administrators, who might maintain the infrastructure of such a system. The core system might be open source, so anyone might be able to review the system and improve it. There might need to be enough administrators, who might be able to be paid eventhough volunteering might be desirable, so errors might be able to be fixed as soon as possible and the webservice might be constantly kept online. Only through the course of operation might be able to tell how many administrators might be required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and and a 7th administrator for any eventualities.
 2.2. Operators to verify users and other operators.
 2.3. Moderators: Moderating the discussions channels
 2.4. Verifiers: Verifying new knowledge entries
@@ -42,7 +42,7 @@ ________
 Workflow for a decision:
 1) A citizen might start a thread for a topic describing a specific problem.
 2) Other citizens subscribed to a topic, might get notified about that thread.
-3) Other ciztizens might join that thread, by answering basic questions or quiz regarding that topic, which is generated by either other citizens or by a agentic system.
+3) Other ciztizens might join that thread, by answering basic questions or quiz regarding that topic, which might be generated by either other citizens or by a agentic system.
 4) In the thread one or many solutions might be elaborated.
 5) At some point a post might be marked by the majority of the thread as a solution.
 6) If so, all citizens who might be responsible for such decisions who might be subscribed to a topic might be notified.
@@ -66,7 +66,7 @@ Failsafe mechanisms:
 - System could be accessed with ad hoc mesh network off grid (meshtastic)
 - Human moderators supervising the agentic systems.
 - Corrupt representative might be able to be deelected by the authorized ballot participants swiftly.
-- Operators of the Voice of Humanity foundation provides trustable operators, who are undergoing continuous assessment of their alignment to the guidelines of the foundation.
+- Operators of the Voice of Humanity foundation provides trustable operators, who might be undergoing continuous assessment of their alignment to the guidelines of the foundation.
 - The Voice of Humanity foundation might be able to fund sufficiently trustable operators.
 
 ________
@@ -132,7 +132,7 @@ Old tech stack:
 2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a malitious intent might have been recognized, before blacklisting human moderator might need to review that malitious action.
 2.7 P2P authorized node for quiz generator, which might be submitting quiz to human verifiers.
 2.8 P2P authorized node for authorization (of users, operators, domains to centralized server as information source).
-2.9 P2P authorized node for managing "main" cryptowallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key is typed in manually by the highest administrator.
+2.9 P2P authorized node for managing "main" cryptowallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key might be typed in manually by the highest administrator.
 ________
 MISC:
 - Example for online identification API which might be provided by government for voting called "eID" in Germany: https://www.personalausweisportal.de/Webs/PA/DE/wirtschaft/diensteanbieter-werden/einsatzmoeglichkeiten/einsatzmoeglichkeiten-node.html
@@ -194,7 +194,7 @@ which address might be documented in the etherum smart contract. -> Filecoin mig
 		- 3. A citizen of a specific country from the local legal age for voting might request a verification through the system.
 			- There might be a simple quiz about the system to verify that they understand what they might be applying for.
 			- Then they might be typing in all the nessary infomation (Name, Email).
-			- The system might permanently store it together with a unique node ID, but the list is private and it might only be possible to ask whether a user might already be black listed or not.
+			- The system might permanently store it together with a unique node ID, but the list might be private and it might only be possible to ask whether a user might already be black listed or not.
 		- 4. They might receive an email containing a link and a one time key to the specified address which might start a identity verification process with authorized third party operators.
 		- 5. The user might authorized if the operator might type it into the system. 
 		- 6. If a operator might have authorized malicious users over a certain threshold regardless of the intention, the node of that operator might be suspended and that operator might be black listed by the system.
