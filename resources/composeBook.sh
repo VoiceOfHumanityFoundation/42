@@ -3,6 +3,8 @@ cat ../draft/title.md
 hash=$(git rev-parse --verify HEAD)
 echo -e "Commit-hash: ${hash}"
 echo -e "\n"
+echo "\newpage"
+echo -e "\n"
 cat ../draft/disclaimer.txt
 echo -e "\n"
 echo "\tableofcontents"
