@@ -4,9 +4,7 @@ subtitle: "A potentially eternal draft for a philosophy called 'ultimate art', w
 author: "Someone, who might be on the way to Pro."
 date: \today
 ---   
-{
-\centering   
+\par 
 ![](../resources/qr_code_latest_releases.png){width=550px}   
-\par  
-}  
+\par
     
