@@ -6,10 +6,8 @@ echo -e "\n"
 cat ../draft/disclaimer.txt
 echo -e "\n"
 echo "\tableofcontents"
-for i in $(seq 1 19)
-do
-echo -e ".\n"
-done
+echo -e "\n"
+echo "\newpage"
 echo -e "\n"
 cat ../README.md
 echo -e "\n"

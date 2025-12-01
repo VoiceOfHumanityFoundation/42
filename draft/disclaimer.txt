@@ -14,33 +14,4 @@ Editing by Someone, who might be on the way to Pro.
 Chapter opening illustrations © 2025
 
 <CONTENT> of <AUTHOR> used by permission of the <AUTHORITY>.   
-.   
-.   
-.   
-.   
-.   
-.   
-.   
-.   
-.   
-.    
-.   
-.    
-.   
-.   
-.   
-.   
-.    
-.   
-.    
-.   
-.   
-.   
-.   
-.   
-.    
-.   
-.    
-.   
-.   
-.   
+\newpage
