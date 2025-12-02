@@ -1,7 +1,7 @@
 #!/bin/bash
 cat ../draft/title.md
 hash=$(git rev-parse --verify HEAD)
-echo -e "Commit-hash: ${hash}"
+echo -e "Commit-hash of the version used for continous integration workflow:\n${hash}"
 echo -e "\n"
 echo "\newpage"
 echo -e "\n"
