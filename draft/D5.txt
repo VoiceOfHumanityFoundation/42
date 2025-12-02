@@ -110,7 +110,7 @@ Current tech stack:
 		- All public keys and UUIDs of the gateway node, and whether it might be blocked
 		- All public keys and UUIDs of the authorization node, and whether it might be blocked
 		- The private key private key used to encrypt the file with the credencials might be also on the temporal ram on a RAM of the decentral private computing cluster and might be also regulary regenerated.
-		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep changing the root password as well to avoid "evil maid attacks".
+		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep changing the root password as well to avoid "harmful maid attacks".
 	- Might manage votes regarding black listing of authentication nodes.
 
 5. Publically accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.

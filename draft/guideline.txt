@@ -14,5 +14,9 @@ One might find oneself seeking to contribute to this document. Those might appre
 13. Every chapter might need to avoid using the same quote within that chapter.   
 14. Every chapter might need to be free of contradiction of the current state of the art science.   
 15. Every chapter might need to contain a sentence with the word from the title of that chapter and the word "art" or "artist" in it.   
-16. Every chapter might need to end with: "How might everyone be on the way to Pro?"   
+16. The title for each chapter might need to be a inquiry for something good.   
+16. One might seek to use the word "opponent" instead of "enemy".    
+17. One might seek to use the word "challenge" or "trouble" instead of "problem".   
+18. One might seek to use the word "harmful", risk for harm", "mistrust" or "dangerous" instead of "evil".    
+19. Every chapter might need to end with: "How might everyone be on the way to Pro?"   
 
