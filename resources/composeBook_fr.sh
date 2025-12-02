@@ -18,7 +18,7 @@ j=0
 for i in $(cat ../draft/index.txt)
 do
 j=$((j+1))
-echo -e "# ${j}. ${title[j-1]}    \n   \n"
+echo -e "# ${j}. ${title[j-1]}?    \n   \n"
 cat "./translate/translation/french/${i}.txt"
 echo -e "   \n"
 done

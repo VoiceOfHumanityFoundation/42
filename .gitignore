@@ -1,6 +1,7 @@
 # temporary files for generation
 */english.txt
 *Zone.Identifier
+*/file_metadata.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
