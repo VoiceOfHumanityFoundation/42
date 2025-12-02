@@ -20,7 +20,7 @@ integrity
 hero
 meaning
 transcendence
-farewell
+succession
 soul
 consciousness
 realization

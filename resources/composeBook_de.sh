@@ -16,7 +16,7 @@ j=0
 for i in $(cat ../index.txt)
 do
 j=$((j+1))
-echo -e "# ${j}. ${title[j]}   \n   \n"
+echo -e "# ${j}. ${title[j]}?   \n   \n"
 cat "../translation/de/${i}.txt"
 echo -e "   \n"
 done

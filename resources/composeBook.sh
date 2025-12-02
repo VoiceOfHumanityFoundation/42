@@ -18,7 +18,7 @@ j=0
 for i in $(cat ../draft/index.txt)
 do
 j=$((j+1))
-echo -e "# ${j}. ${i}   \n   \n"
+echo -e "# ${j}. ${i}?   \n   \n"
 cat "../draft/${i}.txt"  | sed 's/\// \/ /g'
 echo -e "   \n"
 done
