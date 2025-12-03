@@ -18,6 +18,7 @@ import datetime
 import re
 import sys
 import subprocess
+from langchain_community.document_loaders import PyPDFLoader
 
 # --- Configuration ---
 SUGGESTIONS_FILE = "suggestions.jsonl"
