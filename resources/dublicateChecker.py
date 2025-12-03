@@ -84,6 +84,39 @@ else:
 # SYSTEM 2: LLM DISCRIMINATION SETUP
 # ==========================================
 
+def check_gemini_connection() -> bool:
+    """
+    Attempts a minimal API call to check connectivity and authentication.
+    """
+    try:
+        # 1. Initialize the client
+        # Replace GOOGLE_API_KEY with your actual key or environment variable reference
+        client = genai.Client()
+
+        # 2. Make a minimal call (e.g., listing models)
+        print("Attempting to connect and list models...")
+        
+        # Iterating over the response ensures the connection is actually opened and data retrieved
+        models = client.models.list()
+        next(models) # Try to fetch the first model to confirm a successful response
+
+        print("✅ Connection successful. API key is valid.")
+        return True
+    
+    except APIError as e:
+        # Catches common issues like 400 (Bad Request), 403 (Permission Denied/Invalid API Key), 
+        # 429 (Rate Limit), or 503 (Service Unavailable)
+        print(f"❌ API Error: A connection was made, but the API key or request failed.")
+        print(f"   Details: {e}")
+        return False
+        
+    except Exception as e:
+        # Catches network-level errors (ConnectionError, Timeout, DNS failure, etc.)
+        # These are often wrapped in a client-level Exception
+        print(f"❌ Connection Failed: A network or client-side error occurred.")
+        print(f"   Details: {e}")
+        return False
+
 def call_external_validator(suggestion_text):
     """
     Calls a local python script. 
@@ -100,6 +133,9 @@ def call_external_validator(suggestion_text):
         return f"<reason>Script Error: {e.output.decode('utf-8')}</reason>"
     except Exception as e:
         return f"<reason>Execution Error: {str(e)}</reason>"
+
+def call_internal_validator(suggestion_text):
+    return(re.sub(r"<think>.*?</think>\s*", "", qa(suggestion_text)["result"], flags=re.DOTALL))
 
 # 1. Setup LLM
 print("Loading LLM...")
@@ -148,6 +184,64 @@ discriminator_qa = RetrievalQA(
     return_source_documents=True
 )
 
+
+print("Loading document...")
+loader = PyPDFLoader("./book/42_en_latest.pdf")
+docs = loader.load()
+print("Loading model ok")
+# Split into chunks
+text_splitter = SemanticChunker(embedder)
+print("Splitting document...")
+documents = text_splitter.split_documents(docs)
+print("Splitting document ok")
+# Instantiate the embedding model
+#embedder = HuggingFaceEmbeddings()
+# Create the vector store and fill it with embeddings
+print("Loading vector...")
+vector = FAISS.from_documents(documents, embedder)
+print("Loading vector ok")
+print("Loading Retriever...")
+retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+print("Loading Retriever ok")
+
+QA_CHAIN_PROMPT = """
+You are an expert content suggestion checker. Your task is to evaluate a user's input based on the provided context (a book or document).
+
+**Evaluation Rules:**
+1. Evaluate the user input by iterating over every relevant chapter from the context. Determine if the user input might be in logical contradiction of the context.
+2. If the user input is logically coherent or resolvable as a paradox, reply with a truly random 4-digit number wrapped in the tag: <success>XXXX</success>.
+3. If the suggestion is rejected, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
+
+Context:
+{context}
+
+User Input to Evaluate: {question}
+"""
+
+rag_chain = LLMChain(
+    llm=llm,
+    prompt=QA_CHAIN_PROMPT,
+    callbacks=None,
+    verbose=True)
+
+rag_prompt = PromptTemplate(
+    input_variables=["page_content", "source"],
+    template="Context:\ncontent:{page_content}\nsource:{source}",
+)
+
+combine_rag_chain = StuffDocumentsChain(
+    llm_chain=rag_chain,
+    document_variable_name="context",
+    document_prompt=rag_prompt,
+    callbacks=None)
+
+qa = RetrievalQA(
+    combine_documents_chain=combine_rag_chain,
+    verbose=True,
+    retriever=retriever,
+    return_source_documents=True)
+
+
 print("--- All Systems Ready ---")
 
 # ==========================================
@@ -191,7 +285,8 @@ async def handle_suggestion(ms: Message):
     # ---------------------------------------------------------
     print(f"<new>Running discrimination for: {user_suggestion}</new>")
 
-    script_response = call_external_validator(user_suggestion)
+    #script_response = call_external_validator(user_suggestion)
+    script_response = call_internal_validator(user_suggestion)
     
     # Run the Discrimination RAG chain
     # It retrieves similar past suggestions and passes them to the LLM for evaluation
