@@ -25,8 +25,8 @@ from langchain_experimental.text_splitter import SemanticChunker
 SUGGESTIONS_FILE = "suggestions.jsonl"
 SIMILARITY_THRESHOLD_DUPLICATE = 0.05 # VERY low L2 distance = STOLEN/DUPLICATE
 SIMILARITY_THRESHOLD_RAG = 0.5        # Medium L2 distance = SIMILAR, needs LLM check
-EXTERNAL_SCRIPT_PATH = "./validator_script.py"
-
+#EXTERNAL_SCRIPT_PATH = "./validator_script.py"
+EXTERNAL_SCRIPT_PATH = "./suggestionChecker.py"
 # --- Initialize Embedder (Shared) ---
 model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'}
 embedder = HuggingFaceEmbeddings(
