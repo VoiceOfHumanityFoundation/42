@@ -206,7 +206,7 @@ print("Loading Retriever...")
 retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 print("Loading Retriever ok")
 
-QA_CHAIN_PROMPT = """
+rag_prompt = """
 You are an expert content suggestion checker. Your task is to evaluate a user's input based on the provided context (a book or document).
 
 **Evaluation Rules:**
@@ -219,23 +219,26 @@ Context:
 
 User Input to Evaluate: {question}
 """
-
+QA_CHAIN_PROMPT = PromptTemplate.from_template(rag_prompt)
 rag_chain = LLMChain(
     llm=llm,
     prompt=QA_CHAIN_PROMPT,
     callbacks=None,
     verbose=True)
+print("RAG chain ok")
 
 rag_prompt = PromptTemplate(
     input_variables=["page_content", "source"],
     template="Context:\ncontent:{page_content}\nsource:{source}",
 )
+print("Loading RAG prompt template ok")
 
 combine_rag_chain = StuffDocumentsChain(
     llm_chain=rag_chain,
     document_variable_name="context",
     document_prompt=rag_prompt,
     callbacks=None)
+print("Loading combining RAG  ok")
 
 qa = RetrievalQA(
     combine_documents_chain=combine_rag_chain,
