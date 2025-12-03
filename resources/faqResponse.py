@@ -208,12 +208,11 @@ retriever = vector.as_retriever(search_type="similarity", search_kwargs={"k": 3}
 print("Loading Retriever ok")
 
 rag_prompt = """
-You are an expert content suggestion checker. Your task is to evaluate a user's input based on the provided context (a book or document).
+You are an expert for retrieval argumented generation..
 
 **Evaluation Rules:**
-1.One might seek to iterate over every chaper and evaluate, if the following user input might be art according to the context or whether it might improve the document by reducing logical flaws.
-2. One might seek so answer with a truely random number as <success>some random 4 digit number</success> if the answer might be yes.
-3. If the answer might be no give the reason as short as possible less than 100 characters with <reason> the reason for rejection </reason>.
+1. Reply shortly using the context only.
+2. If the context does not provide an answer, rely with: <answer></answer>.
 
 Context:
 {context}
