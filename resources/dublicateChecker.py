@@ -161,9 +161,8 @@ async def handle_suggestion(ms: Message):
         # Check if the score indicates a near-perfect match (strict duplicate)
         if score < SIMILARITY_THRESHOLD_DUPLICATE and best_doc.page_content != "__INITIALIZATION_TOKEN__":
             is_duplicate = True
-
     if is_duplicate:
-        print(f"Duplicate detected (Score: {score}): {duplicate_content}")
+        print(f"Duplicate detected (Score: {score}): {best_doc.page_content}")
         # MODIFICATION: Return the specific message requested: <reason>not new</reason>
         return JSONResponse(content={"result": "<reason>not new</reason>"})
 
