@@ -164,7 +164,7 @@ async def handle_suggestion(ms: Message):
     if is_duplicate:
         print(f"Duplicate detected (Score: {score}): {best_doc.page_content}")
         # MODIFICATION: Return the specific message requested: <reason>not new</reason>
-        return JSONResponse(content={"result": "<reason>not new</reason>"})
+        return JSONResponse("<reason>not new</reason>")
 
     # ---------------------------------------------------------
     # 2. Process New Suggestion (Run Discrimination RAG)
@@ -193,9 +193,4 @@ async def handle_suggestion(ms: Message):
     suggestion_vector.add_documents([new_doc])
     
     # 4. Return the result
-    return JSONResponse(content={
-        "status": "processed",
-        "result": final_response, 
-        "record": saved_record,
-        "similarity_score": score # Score of the closest non-strict-duplicate
-    })
+    return JSONResponse(final_response)
