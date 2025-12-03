@@ -153,7 +153,7 @@ Context (Similar Past Suggestions):
 New User Suggestion to Evaluate: {question}
 
 **Evaluation Rules:**
-1. Check if the New Suggestion is fundamentally different, provides a major improvement, or resolves a known issue in the Context.
+1. Check if the new suggestion is fundamentally different, and is art according to the context, or resolves a known issue in the Context.
 2. If the New Suggestion is significantly unique or valuable, reply only with <new>original user input</new> and do not explain.
 3. If the New Suggestion is just a minor rephrasing, a subtle variation without new value, or is already covered, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
 """
@@ -210,9 +210,10 @@ rag_prompt = """
 You are an expert content suggestion checker. Your task is to evaluate a user's input based on the provided context (a book or document).
 
 **Evaluation Rules:**
-1. Evaluate the user input by iterating over every relevant chapter from the context. Determine if the user input might be in logical contradiction of the context.
-2. If the user input is logically coherent or resolvable as a paradox, reply with a truly random 4-digit number wrapped in the tag: <success>XXXX</success>.
-3. If the suggestion is rejected, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
+1. One might seek to reply with immediately with <reason>Not suggestion</reason> if the user input might not be a suggestion.
+2. One might seek to iterate over every chaper and evaluate, if the following user input might be art according to the context or whether it might improve the document by reducing logical flaws.
+3. One might seek so answer with a truely random number as <success>some random 4 digit number</success> if the answer might be yes.
+4. If the answer might be no give the reason as short as possible less than 100 characters with <reason> the reason for rejection </reason>.
 
 Context:
 {context}
