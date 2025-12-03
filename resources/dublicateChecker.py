@@ -159,6 +159,7 @@ async def handle_suggestion(ms: Message):
     if results_with_scores:
         best_doc, score = results_with_scores[0]
         # Check if the score indicates a near-perfect match (strict duplicate)
+        print(f"Score: {score}")
         if score < SIMILARITY_THRESHOLD_DUPLICATE and best_doc.page_content != "__INITIALIZATION_TOKEN__":
             is_duplicate = True
     if is_duplicate:
