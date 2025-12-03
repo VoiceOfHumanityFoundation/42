@@ -19,6 +19,7 @@ import re
 import sys
 import subprocess
 from langchain_community.document_loaders import PyPDFLoader
+from langchain_experimental.text_splitter import SemanticChunker
 
 # --- Configuration ---
 SUGGESTIONS_FILE = "suggestions.jsonl"
