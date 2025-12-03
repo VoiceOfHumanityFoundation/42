@@ -1,35 +1,38 @@
 # -*- coding: utf-8 -*-
 
-from fastapi import FastAPI, Response
+from fastapi import FastAPI
 from pydantic import BaseModel
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.llms import Ollama
 from langchain.docstore.document import Document
+from langchain.prompts import PromptTemplate
+from langchain.chains.llm import LLMChain
+from langchain.chains.combine_documents.stuff import StuffDocumentsChain
+from langchain.chains import RetrievalQA
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 import os
 import json
 import datetime
-import subprocess
+import re
 import sys
 
 # --- Configuration ---
 SUGGESTIONS_FILE = "suggestions.jsonl"
-EXTERNAL_SCRIPT_PATH = "./validator_script.py" # The local linux script to call
-SIMILARITY_THRESHOLD = 0.3 # Lower value = stricter match for L2 distance (adjust based on metric)
+SIMILARITY_THRESHOLD_DUPLICATE = 0.05 # VERY low L2 distance = STOLEN/DUPLICATE
+SIMILARITY_THRESHOLD_RAG = 0.5        # Medium L2 distance = SIMILAR, needs LLM check
 
-# --- Initialize Embedder ---
-model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'} 
-# Fallback to cpu if cuda not available
-# model_kwargs = {'trust_remote_code': True, 'device': 'cpu'}
-
+# --- Initialize Embedder (Shared) ---
+model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'}
 embedder = HuggingFaceEmbeddings(
-    model_name="nomic-ai/nomic-embed-text-v2-moe", 
+    model_name="nomic-ai/nomic-embed-text-v2-moe",
     model_kwargs=model_kwargs
 )
 
-# --- Helper Functions ---
+# ==========================================
+# SYSTEM 1: HISTORY MANAGEMENT
+# ==========================================
 
 def load_suggestions_from_file():
     """Reads the JSONL file and returns a list of LangChain Documents."""
@@ -41,7 +44,7 @@ def load_suggestions_from_file():
                     data = json.loads(line)
                     # We embed the suggestion, and store the response/date in metadata
                     doc = Document(
-                        page_content=data['suggestion'], 
+                        page_content=data['suggestion'],
                         metadata={
                             "response": data.get('response'),
                             "date": data.get('date')
@@ -63,38 +66,74 @@ def append_suggestion_to_file(suggestion, response):
         f.write(json.dumps(record) + "\n")
     return record
 
-def call_external_validator(suggestion_text):
-    """
-    Calls a local python script. 
-    Expects the script to print the result to stdout.
-    """
-    try:
-        # Calling a local python script in linux
-        result = subprocess.check_output(
-            [sys.executable, EXTERNAL_SCRIPT_PATH, suggestion_text],
-            stderr=subprocess.STDOUT
-        )
-        return result.decode('utf-8').strip()
-    except subprocess.CalledProcessError as e:
-        return f"<reason>Script Error: {e.output.decode('utf-8')}</reason>"
-    except Exception as e:
-        return f"<reason>Execution Error: {str(e)}</reason>"
-
-# --- Vector Store Initialization ---
-
-print("Loading existing suggestions...")
+print("--- Initializing History RAG Source... ---")
 existing_docs = load_suggestions_from_file()
 
 if existing_docs:
-    print(f"Found {len(existing_docs)} existing suggestions. Building vector store...")
-    vector = FAISS.from_documents(existing_docs, embedder)
+    print(f"Found {len(existing_docs)} existing suggestions. Building history vector store...")
+    suggestion_vector = FAISS.from_documents(existing_docs, embedder)
 else:
-    print("No existing suggestions found. Initializing empty vector store...")
-    # FAISS needs at least one text to initialize the index. 
-    # We add a placeholder that won't match real queries easily.
-    vector = FAISS.from_texts(["__INITIALIZATION_TOKEN__"], embedder)
+    print("No existing suggestions found. Initializing empty history vector store...")
+    # Initialize with a placeholder
+    suggestion_vector = FAISS.from_texts(["__INITIALIZATION_TOKEN__"], embedder)
 
-print("System ready.")
+
+# ==========================================
+# SYSTEM 2: LLM DISCRIMINATION SETUP
+# ==========================================
+
+# 1. Setup LLM
+print("Loading LLM...")
+llm = Ollama(model="gemma3n:e4b", keep_alive="-1m")
+
+# 2. Setup Prompt for Discrimination
+DISCRIMINATION_PROMPT_TEMPLATE = """
+You are an expert idea discriminator. Your task is to evaluate a NEW user suggestion based on the context of SIMILAR PAST suggestions.
+
+Context (Similar Past Suggestions):
+{context}
+
+New User Suggestion to Evaluate: {question}
+
+**Evaluation Rules:**
+1. Check if the New Suggestion is fundamentally different, provides a major improvement, or resolves a known issue in the Context.
+2. If the New Suggestion is significantly unique or valuable, reply with a truly random 4-digit number wrapped in the tag: <unique>XXXX</unique>.
+3. If the New Suggestion is just a minor rephrasing, a subtle variation without new value, or is already covered, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
+"""
+
+DISCRIMINATION_PROMPT = PromptTemplate.from_template(DISCRIMINATION_PROMPT_TEMPLATE)
+
+llm_chain = LLMChain(
+    llm=llm,
+    prompt=DISCRIMINATION_PROMPT,
+    verbose=True
+)
+
+document_prompt = PromptTemplate(
+    input_variables=["page_content", "source"],
+    template="Past Suggestion: {page_content}",
+)
+
+# Combine documents chain to pass the retrieved documents into the LLM chain
+combine_documents_chain = StuffDocumentsChain(
+    llm_chain=llm_chain,
+    document_variable_name="context",
+    document_prompt=document_prompt,
+)
+
+# RetrievalQA chain (renamed for clarity but using same structure)
+discriminator_qa = RetrievalQA(
+    combine_documents_chain=combine_documents_chain,
+    verbose=True,
+    retriever=suggestion_vector.as_retriever(search_type="similarity", search_kwargs={"k": 2}),
+    return_source_documents=True
+)
+
+print("--- All Systems Ready ---")
+
+# ==========================================
+# API ENDPOINTS
+# ==========================================
 
 app = FastAPI()
 
@@ -103,58 +142,61 @@ class Message(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Suggestion Checker System Online"}
+    return {"message": "History-Based Suggestion Discriminator Online"}
 
 @app.post("/rag")
 async def handle_suggestion(ms: Message):
     user_suggestion = ms.message.strip()
     
-    # 1. Check for duplicates using Vector Similarity
-    # Note: FAISS L2 distance: 0 is identical. Higher is less similar.
-    results_with_scores = vector.similarity_search_with_score(user_suggestion, k=1)
+    # ---------------------------------------------------------
+    # 1. Check for STRICT Duplicate (using a very low threshold)
+    # ---------------------------------------------------------
+    results_with_scores = suggestion_vector.similarity_search_with_score(user_suggestion, k=1)
     
     is_duplicate = False
-    duplicate_content = ""
-    score = 1.0 # Initialize score
-    
+    best_doc = None
+
     if results_with_scores:
         best_doc, score = results_with_scores[0]
-        # If the distance is very low, it's a duplicate. 
-        if score < SIMILARITY_THRESHOLD and best_doc.page_content != "__INITIALIZATION_TOKEN__":
+        # Check if the score indicates a near-perfect match (strict duplicate)
+        if score < SIMILARITY_THRESHOLD_DUPLICATE and best_doc.page_content != "__INITIALIZATION_TOKEN__":
             is_duplicate = True
-            duplicate_content = best_doc.page_content
 
     if is_duplicate:
-        # If duplicate, return the rejection response and EXIT the function.
         print(f"Duplicate detected (Score: {score}): {duplicate_content}")
-        return JSONResponse(content={
-            "status": "duplicate",
-            "message": "This suggestion has already been made.",
-            "original_suggestion": duplicate_content,
-            "previous_response": best_doc.metadata.get("response")
-        })
+        # MODIFICATION: Return the specific message requested: <reason>not new</reason>
+        return JSONResponse(content={"result": "<reason>not new</reason>"})
 
-    # --- UNIQUE SUGGESTION PATH (Execution continues here ONLY if NOT duplicate) ---
+    # ---------------------------------------------------------
+    # 2. Process New Suggestion (Run Discrimination RAG)
+    # ---------------------------------------------------------
+    print(f"<new>Running discrimination for: {user_suggestion}</new>")
     
-    # 2. Process New Suggestion
-    print(f"<new>{user_suggestion}</new>")
+    # Run the Discrimination RAG chain
+    # It retrieves similar past suggestions and passes them to the LLM for evaluation
+    chain_output = discriminator_qa(user_suggestion)["result"]
     
-    # 3. Call local linux script to validate the unique suggestion
-    # Expected output from validator_script.py: <success>1234</success> or <reason>...</reason>
-    script_response = call_external_validator(user_suggestion)
+    # Clean <think> tags if using reasoning models like Gemma
+    final_response = re.sub(r"<think>.*?</think>\s*", "", chain_output, flags=re.DOTALL).strip()
     
-    # 4. Save to JSONL
-    saved_record = append_suggestion_to_file(user_suggestion, script_response)
+    # ---------------------------------------------------------
+    # 3. Save to File & History Vector
+    # ---------------------------------------------------------
     
-    # 5. Update Vector Store in Memory
+    # Save to JSONL
+    saved_record = append_suggestion_to_file(user_suggestion, final_response)
+    
+    # Update History Vector Store in Memory
     new_doc = Document(
         page_content=user_suggestion,
-        metadata={"response": script_response, "date": saved_record['date']}
+        metadata={"response": final_response, "date": saved_record['date']}
     )
-    vector.add_documents([new_doc])
+    suggestion_vector.add_documents([new_doc])
     
+    # 4. Return the result
     return JSONResponse(content={
         "status": "processed",
-        "result": script_response,
-        "record": saved_record
+        "result": final_response, 
+        "record": saved_record,
+        "similarity_score": score # Score of the closest non-strict-duplicate
     })
