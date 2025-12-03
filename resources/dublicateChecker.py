@@ -17,11 +17,13 @@ import json
 import datetime
 import re
 import sys
+import subprocess
 
 # --- Configuration ---
 SUGGESTIONS_FILE = "suggestions.jsonl"
 SIMILARITY_THRESHOLD_DUPLICATE = 0.05 # VERY low L2 distance = STOLEN/DUPLICATE
 SIMILARITY_THRESHOLD_RAG = 0.5        # Medium L2 distance = SIMILAR, needs LLM check
+EXTERNAL_SCRIPT_PATH = "./validator_script.py"
 
 # --- Initialize Embedder (Shared) ---
 model_kwargs = {'trust_remote_code': True, 'device': 'cuda:0'}
@@ -82,6 +84,23 @@ else:
 # SYSTEM 2: LLM DISCRIMINATION SETUP
 # ==========================================
 
+def call_external_validator(suggestion_text):
+    """
+    Calls a local python script. 
+    Expects the script to print the result to stdout.
+    """
+    try:
+        # Calling a local python script in linux
+        result = subprocess.check_output(
+            [sys.executable, EXTERNAL_SCRIPT_PATH, suggestion_text],
+            stderr=subprocess.STDOUT
+        )
+        return result.decode('utf-8').strip()
+    except subprocess.CalledProcessError as e:
+        return f"<reason>Script Error: {e.output.decode('utf-8')}</reason>"
+    except Exception as e:
+        return f"<reason>Execution Error: {str(e)}</reason>"
+
 # 1. Setup LLM
 print("Loading LLM...")
 llm = Ollama(model="gemma3n:e4b", keep_alive="-1m")
@@ -97,7 +116,7 @@ New User Suggestion to Evaluate: {question}
 
 **Evaluation Rules:**
 1. Check if the New Suggestion is fundamentally different, provides a major improvement, or resolves a known issue in the Context.
-2. If the New Suggestion is significantly unique or valuable, reply with a truly random 4-digit number wrapped in the tag: <unique>XXXX</unique>.
+2. If the New Suggestion is significantly unique or valuable, reply only with <new>original user input</new> and do not explain.
 3. If the New Suggestion is just a minor rephrasing, a subtle variation without new value, or is already covered, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
 """
 
@@ -171,14 +190,16 @@ async def handle_suggestion(ms: Message):
     # 2. Process New Suggestion (Run Discrimination RAG)
     # ---------------------------------------------------------
     print(f"<new>Running discrimination for: {user_suggestion}</new>")
+
+    script_response = call_external_validator(user_suggestion)
     
     # Run the Discrimination RAG chain
     # It retrieves similar past suggestions and passes them to the LLM for evaluation
-    chain_output = discriminator_qa(user_suggestion)["result"]
+    #chain_output = discriminator_qa(user_suggestion)["result"]
     
     # Clean <think> tags if using reasoning models like Gemma
-    final_response = re.sub(r"<think>.*?</think>\s*", "", chain_output, flags=re.DOTALL).strip()
-    
+    #final_response = re.sub(r"<.+?>.*?</think>\s*", "", chain_output, flags=re.DOTALL).strip()
+    final_response = script_response
     # ---------------------------------------------------------
     # 3. Save to File & History Vector
     # ---------------------------------------------------------
