@@ -141,7 +141,8 @@ def call_internal_validator(suggestion_text):
 
 # 1. Setup LLM
 print("Loading LLM...")
-llm = Ollama(model="gemma3n:e4b", keep_alive="-1m")
+#llm = Ollama(model="gemma3n:e4b", keep_alive="-1m")
+llm = Ollama(model="gemma3:27b-it-qat", keep_alive="-1m")
 
 # 2. Setup Prompt for Discrimination
 DISCRIMINATION_PROMPT_TEMPLATE = """
