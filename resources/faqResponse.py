@@ -22,7 +22,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_experimental.text_splitter import SemanticChunker
 
 # --- Configuration ---
-SUGGESTIONS_FILE = "suggestions.jsonl"
+SUGGESTIONS_FILE = "faq.jsonl"
 SIMILARITY_THRESHOLD_DUPLICATE = 0.05 # VERY low L2 distance = STOLEN/DUPLICATE
 SIMILARITY_THRESHOLD_RAG = 0.5        # Medium L2 distance = SIMILAR, needs LLM check
 #EXTERNAL_SCRIPT_PATH = "./validator_script.py"
@@ -151,12 +151,12 @@ You are an expert idea discriminator. Your task is to evaluate a NEW user sugges
 Context (Similar Past Suggestions):
 {context}
 
-New User Suggestion to Evaluate: {question}
+New User question to Evaluate: {question}
 
 **Evaluation Rules:**
-1. Check if the new suggestion is fundamentally different, and is art according to the context, or resolves a known issue in the Context.
-2. If the New Suggestion is significantly unique or valuable, reply only with <new>original user input</new> and do not explain.
-3. If the New Suggestion is just a minor rephrasing, a subtle variation without new value, or is already covered, give the reason as short as possible (less than 100 characters) wrapped in the tag: <reason>the reason for rejection</reason>.
+1. Check if the new question is fundamentally different.
+2. If the new user question is significantly unique or valuable, reply only with <new>original user question</new> and do not explain.
+3. If the New User question is just a minor rephrasing, a subtle variation without new value, or is already covered, return <answer></answer>.
 """
 
 DISCRIMINATION_PROMPT = PromptTemplate.from_template(DISCRIMINATION_PROMPT_TEMPLATE)
