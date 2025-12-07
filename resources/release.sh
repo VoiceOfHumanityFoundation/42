@@ -23,12 +23,12 @@ if [ -z "$LATEST_TAG" ]; then
     exit 0
 fi 
 
-if [[ "$NEW_TAG" != "$LATEST_TAG" ]]; then
+if [ "$NEW_TAG" != "$LATEST_TAG" ]; then
     # The new tag is the latest, meaning it's newer than the existing one
     echo "✅ Success: $NEW_TAG is **NEWER** than the latest existing tag ($LATEST_TAG)."   
     new_diff_numstat=$(git diff $LATEST_TAG --numstat)
     gh release create $1 --title "$1" --notes "$new_diff_numstat" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf'
-elif [[ "$NEW_TAG" == "$LATEST_TAG" ]]; then
+elif [ "$NEW_TAG" = "$LATEST_TAG" ]; then
     # The existing tag is still the latest, meaning the new tag is older or equal
     echo "⚠️ Warning: $NEW_TAG might be **EQUAL** to the latest existing tag ($LATEST_TAG). Increment the version!"
     LATEST_MINUS_ONE=$(git tag | sort -V | tail -2 | head -1)
