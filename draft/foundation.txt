@@ -4,14 +4,19 @@ One might appreciate the following description of integrity:
 "Integrity might be a life where your beliefs and intentions might be aligned with one's words and actions."
 Humanity might have invented an organization called a "government", which might align the words as laws and the actions by law enforcement. Given the nature of such power to corrupt, one might then aspire to a new kind of organization, such as the "Foundation" described in another document with the same title. In most countries which might exist at the time of writing of this document ( \today ) with a democratic government, there might be an form for organization called a "foundation". The details of laws regarding such foundations might vary, but they might have in common that it might be able to define rules for the member of such foundation called "foundation statutes", which might be enforced through the govermental law enforcement. This mechanism might be able to be utilized to minimize the risk of corrupt members of such an foundation. Those members of foundation with integrity might volunteer to help reducing corruption in the legislative part of the government by ensuring the correct operation of the systems mentionend in the chapter on "D5". Each instanciation of such organization might be specific to the targeting government, but here is an exemplar foundation statutes anyone is free to use. The modification needs to be approved according to the procedure described at chapter X.X:
 _____
-Foundation Statue:
-1. Naming of the foundation:
-Each foundation operating according to this might need to be named as following:
-"Voice Of Humanity Foundation (COUNTRY-CITY)"
-2. Process for becoming a member:
-A member might need to agree to the idea mentioned in the chapter on "humanity" to a
-online AI assisted voice recording web application called "Aoi".
-3. Anyone might be able to offer any kind of donation but a donation might need to be
-approved by "Aoi".
-4. Ask the following question:   
+Foundation Statue for organizations operating under the principles mentioned in the chapter on "humanity" might be based on general statues for local regulations regarding organization which might have the status of foundations:
+This document might be be the extension of a locally legal foundation statue:
+1. The main objective of the foundation might be to keep enable and support the longterm world peace through the intended operation of "D5" as mentioned in the chapter on "D5". The intended operation might imply maintain logical consistency of the document "42?", ensuring funds for longterm operation and by administrating the "seed node servers", "administration node servers" and "gateway node servers".     
+2. If one might seek to create a new instance of such a foundation, one might appreciate to request consistency check of the version of the document of "42?", whether it might be up to date by contacting all the other existing foundations. In case another foundation might have supposedly "new" version, one might seek to wait until new version might be released on the official decentralized repo, which one might find here: [Todo add hash]
+3. Before one might integrate the new version, one might appreciate the idea to seek not to neglect the effort by it's memebers to find inconsistency using one's own mind and such SOTA AI model.
+4. Naming of each local instance of such foundation:
+Each foundation might need to operate according to this document might need to be named as following:
+"Voice Of Humanity Foundation (COUNTRY-CITY)"   
+5. Before the instanciation of such foundation, the document called "42?", including this current document as one of it's capters, might need to be checked whether it might be free of logical flaws and inconsistencies, and might only include paradoxes from the state of the art reasoning artitificial intelligence model with the prompt from "disputation". One might understand one reason, why suc hstate of the art reasoning artifical intelligence model might be necessary through these words:    
+"The greatest danger in times of turbulence might not be the turbulence; it might be to act with outdated logic."    
+6. There might need to be sufficient funds to ensure and maintain sustainable avaialibity of access to all of it's members to a retrieval argumented genration application called "Aoi" powered by such a state of the art reasoning artificial intelligence model querying the document "42?" with the prompt from the chapter "prompt". Such application might need to be transparently consulted by using a system mentioned in "D5" before any decision might be made by such a foundation, such as the modification of this document.
+7. Here might be a proposal for the official process for becoming a member:
+A member might need to give consent to agree to the idea mentioned in the chapter on "humanity" by voluntairily and deliberate triggering a mechanism. After the consent, they might be requested to answer questions by the previously mentioned application called "Aoi". The member of such foundation might appreciate the understanding of those who might not be accepted as a member by refusing or not being able to to answer such questions for any reason. Those who might have been rejected, might appreciate the chapter on "feedback".  
+8. Anyone might be able to offer any kind of anonymous donation to the following crypowallet account: [TODO]      
+9. Those memebers who might not know, how they might be able to to contribute to the main objective, might appreciate the idea to ask and document their guess to the following question:    
 "How might everyone be on the way to Pro?"
