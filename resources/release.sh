@@ -33,7 +33,7 @@ elif [ "$NEW_TAG" = "$LATEST_TAG" ]; then
     echo "⚠️ Warning: $NEW_TAG might be **EQUAL** to the latest existing tag ($LATEST_TAG). Increment the version!"
     LATEST_MINUS_ONE=$(git tag | sort -V | tail -2 | head -1)
     minus_one_diff_numstat=$(git diff $LATEST_MINUS_ONE --numstat | tr '-' 'b')
-    gh release edit $1 --title "$1" --notes "$minus_one_diff_numstat" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' 
+    gh release edit $1 --notes "$minus_one_diff_numstat" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' 
 else
     # Fallback for unexpected results, though rare with sort -V
     echo "🤷 Might have not been able to determine the correct version comparison."
