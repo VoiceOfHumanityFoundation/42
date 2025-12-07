@@ -9,6 +9,9 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# need to pull before the tag of the new release gets updated
+git pull
+
 # The desired tag name passed as the first argument
 NEW_TAG="$1"
 LATEST_TAG=$(git tag | sort -V | tail -1)
