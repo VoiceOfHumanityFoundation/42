@@ -1,5 +1,9 @@
 One might find oneself seeking to contribute to this document. Those might appreciate the following list of guidelines, one might need to follow, if one might seek to contribute to this document:   
-1. Quotes which might be free from gender specific language, to avoid unintended discrimination. If the original quote might contain gender specific language, that quote might need to be reformulated.   
+1. One might appreciate the freedom to propose any words in order to preserve freedom of speech. But those might appreciate the idea to be considerate of those, who might feel hurt by such words as in:   
+"Truth without love might be brutality, and love without truth might be hypocrisy."   
+Those who might then seek such truth with such love, might appreciate these words:   
+"The highest form of love might be consideration."   
+The author might appreciate all the effort to reformulate to be free from any language which might lead to any discrimination, whether inteded or unintended.    
 2. One might seek not to neglect the effort to research about the historical or political context of quotes, which might not be able to be recognized as harmful by the SOTA AI model used for consistency check to reduce the risk of inconsistency. 
 3. Quotes with attribution to an specific entity, to avoid unintended conflict of ownership claims and allegations.    
 4. Quotes without explaination of causality in a scientific way, to avoid prophetic predictions.   

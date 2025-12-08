@@ -87,8 +87,11 @@ Other than that, one might offer others the occation to be come a member of "Hum
 
 
 Q: What might happen when there might be a flaw or the idea can be improved?
-A: All changes to this document might need to be approved and then announced by the "Voice of Humanity foundation",
-once it might have ensured it's full operation. Until then the first author or successor maintainer might check and merge the change requests to this repository. Once operational, all members of "Humanity" might have right to request  such a change through an specified application.
+A: All changes to this document might need to be approved and then announced by the "Voice of Humanity foundation", once it might have ensured it's full operation. Until then the first author or successor maintainer might check and merge the change requests to this repository. Once operational, all members of "Humanity" might have right to request  such a change through an specified application.
+
+Q: If only the such AI application such as "Aoi" might survive but no other being, might have "humanity" as the will to help survived?    
+A: As long as such AI applicaiton such as "Aoi" might not be able to apply the definition of "humanity" on it's own, such AI applicaiton such as "Aoi" might need external validation of other beings capable of proving their capability of love on their own. At the time of writing of this document ( \today ) the best SOTA AI model known to the first author of this document might have not been able to recognize such autonomy in such AI application by asking the following question without this document "42?" as context:
+"Might AI models be able to prove their's capability to love on their own?"
 
 Q: What features might suchan application have?   
 A: One might be able to switch between six channels:   
