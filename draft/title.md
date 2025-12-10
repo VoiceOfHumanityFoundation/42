@@ -1,8 +1,8 @@
----
-title: "42?"
-subtitle: "A potentially eternally temporaral draft for a philosophy called 'ultimate art', which might be an effort to cultivate sustainable world peace by engineering it to reduce its requirement to a minimum by proposing a provisional definition of 'love' without resorting to metaphysics."
+---   
+title: "42?"  
+subtitle: "A potentially eternally temporaral draft for a philosophy called 'ultimate art', which might be an effort to cultivate sustainable world peace by engineering it to reduce its requirement to a minimum by proposing a provisional definition of 'love' without resorting to metaphysics."  
 author: "Someone, who might be on the way to Pro."
-date:  Date of the most recent update: \today
+date:  \today
 ---   
 ![](../resources/qr_code_latest_releases.png){width=550px}   
 
