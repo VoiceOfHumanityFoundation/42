@@ -2,7 +2,7 @@ peace
 good
 diversity
 needs
-character
+temperament
 faith
 home
 curiosity
@@ -24,7 +24,7 @@ succession
 soul
 consciousness
 realization
-civilization
+culture
 asylum
 preperation
 accessibility
@@ -33,7 +33,7 @@ question
 protection
 humanity
 promise
-D5
+democracy
 foundation
 prompt
 guideline
