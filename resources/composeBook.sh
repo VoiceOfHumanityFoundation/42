@@ -22,3 +22,6 @@ echo -e "# ${j}. ${i}?   \n   \n"
 cat "../draft/${i}.txt"  | sed 's/\// \/ /g'
 echo -e "   \n"
 done
+echo -e "# Backcover?   \n   \n"
+cat ../draft/backcover.txt
+echo -e "\n"
