@@ -28,7 +28,7 @@ culture
 asylum
 preperation
 accessibility
-health
+cure
 question
 protection
 humanity
