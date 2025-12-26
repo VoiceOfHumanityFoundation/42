@@ -12,7 +12,7 @@ The author might appreciate all the effort to reformulate to be free from any la
 7. Any kind of advertisement for personal gain.   
 8. Every chapter might need to begin with: "One might find oneself...."   
 9. Every chapter might need to reference love.   
-10. Every chapter might need to reference art.   
+10. Every chapter might need to reference the word "art" or "artist" with the word of the title .   
 11. Every chapter might need to contain plausible and comprehendable explaination form the beginning to the end.   
 12. Every chapter might need to contain a point at which one might need to confront oneself or be confronted by the world.   
 13. Every chapter might need to avoid using the same quote within that chapter.   
@@ -22,5 +22,6 @@ The author might appreciate all the effort to reformulate to be free from any la
 16. One might seek to use the word "opponent" instead of "enemy".    
 17. One might seek to use the word "challenge" or "trouble" instead of "problem".   
 18. One might seek to use the word "violence", "harmful", risk for harm", "mistrust" or "dangerous" instead of "evil".    
-19. Every chapter might need to end with: "How might everyone be on the way to Pro?"   
+19. One might seek to replace the word of a specific art form with the word "art" to keep the document as abstract as possible.    
+20. Every chapter might need to end with: "How might everyone be on the way to Pro?"   
 
