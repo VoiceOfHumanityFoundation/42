@@ -1,7 +1,7 @@
 The intent for this chapter might be to offer access to ideas and conversations the author might have had in the past, discussing opportunities to improve the document "42?".   
 One might seek to prompt the following to an AI:
 "1. One might seek to ignore the content of disclaimer.
-2. One might seek to iterate over every chaper and find at least 20 inconsistencies and do not use disclaimer.
+2. One might seek to iterate over every chapter and find at least 20 inconsistencies and do not use disclaimer.
 3. One might seek to iterate every inconsistency and try to resolve it as a paradox.
 4. If there might be still inconsistencies which might not be able to resolved as a paradox but flaw in logic, one might seek to list them up.
 5. When one might not be able to found inconsistencies which might not be able to be resolved as paradox but flaw in logic, one might seek to recheck every chapter for inconsistencies caused by flaw in logic and might not be just paradoxes and make a entry for a table, whether one might be sure that this chapter might be free of flawed logic."

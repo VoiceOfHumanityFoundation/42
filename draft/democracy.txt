@@ -4,15 +4,15 @@ Those who might then seek to understand such tyranny, might appreciate these wor
 "The one pervading fault of democracy might be the tyranny of the majority."   
 Those who might seek to understand such democracy, might appreciate these words:   
 "Democracy might be a difficult art of government, demanding of its citizens high ratios of courage and literacy, and at the moment one might lack both the necessary habits of mind and a sphere of common reference."   
-Those who might seek such a sphere of common reference, might appreciate this document which might seek to offer a series of definitions to which one might be able to agree to reference on. Those who might then seek to understand one reason, why such democracy might have such prevading fault, might appreciate these words:   
+Those who might seek such a sphere of common reference, might appreciate this document which might seek to offer a series of definitions to which one might be able to agree to reference on. Those who might then seek to understand one reason, why such democracy might have such pervading fault, might appreciate these words:   
 "There might be false notion that 'democracy' might mean that "one's ignorance might be just as good as another's knowledge."   
-Those who might then seek to understand democracy without such false notion, might appreciate thes words:   
+Those who might then seek to understand democracy without such false notion, might appreciate these words:   
 "Freedom of the press might not be just important to democracy, it might be democracy."
 Those who might seek such freedom of press, might appreciate these words:   
 "Truth might be the first casualty of tyranny."   
-One might understand one reason, why that might be thorugh these words:    
+One might understand one reason, why that might be through these words:    
 "Authority and power might be two different things: Power might be the force by means of which one might be able to oblige others to obey you. Authority might be the right to direct and command, to be listened to or obeyed by others. Authority might request power. Power without authority might be tyranny." 
-Those who might then seek to udnerstand such authority of power, might appreciate these words:   
+Those who might then seek to understand such authority of power, might appreciate these words:   
 "Authority might not be power; that might be coercion. Authority might not be knowledge; that might be persuasion, or seduction. Authority might simply be that one might have the right to make a statement and to be heard."    
 Those who might then seek such right, might appreciate these words:   
 "Cruelty might come in many forms - ignorance might be one of them."    
@@ -47,24 +47,24 @@ One might appreciate the following prediction:
 Those who might then seek to agree on such hallucination one might refer to as "reality", might appreciate these words:    
 "Even if individual researchers might be prone to be biased towards their own theories, the broader process of peer review and institutionalized skepticism might be designed to ensure that, eventually, the best ideas might prevail."
 Those who might then seek to participate in such peer review without authoritatively imposing one's convictions onto others, might appreciate the idea of "D5", which might stand in the original document for the abbreviation of "Digital Decentral Diverse Direct Democracy":   
-A lot of current govermental functions might require still analog bureaucracy, which might decrease the speed of processing and might waste valuable resources.   
+A lot of current governmental functions might require still analog bureaucracy, which might decrease the speed of processing and might waste valuable resources.   
 A logical conclusion might be to provide a internat based service, which might digitally accessible through any browser.   
 To minimize the risk of corruption by data manipulation and monopolization, data might be stored on verifiable decentralized web services.     
-Diversity might be difficult to measure and thus to represent, especially for those who might be less priviledged. Those might appreciate the chapter on "diversity".
+Diversity might be difficult to measure and thus to represent, especially for those who might be less privileged. Those might appreciate the chapter on "diversity".
 By giving access to those who might be able to have a vote in favor of such a system, one might seek be able to productively contribute.
 
-Direct democracy might be generally difficult to implement, one reason might be because it might require enourmous resources to process all information by all citizens. If such a system would be moderated by agentic software and other citizens and not only by those who might be employed by a governmental bureaucracy there might be enough processing power to let all citizens contribute directly to the final decisions, thus reducing the possiblity of abuse of power by corrupt representatives. To be compatible with as many of the current representation based democractic political systems, the announcement of the decisions made by the D5 system might be done by elected volunteers, saying that if D5 has been elected as the absolute majority one day, that the draft for changes which has been announced, will be applied as announced.
+Direct democracy might be generally difficult to implement, one reason might be because it might require enormous resources to process all information by all citizens. If such a system would be moderated by agentic software and other citizens and not only by those who might be employed by a governmental bureaucracy there might be enough processing power to let all citizens contribute directly to the final decisions, thus reducing the possibility of abuse of power by corrupt representatives. To be compatible with as many of the current representation based democratic political systems, the announcement of the decisions made by the D5 system might be done by elected volunteers, saying that if D5 has been elected as the absolute majority one day, that the draft for changes which has been announced, will be applied as announced.
 
 Democracy by citizens subject to such a government might be necessary to avoid fatal errors unavoidably existing in a fully automated system.
 
 __________
 The D5 might require the following to operate:
 1. Users/Citizens with access to the system.
-1.1 Creative and knowledgable citizens, who might come up with a suggestion for a solution to a challenge and might do research whether that suggestion might be actually viable and might discuss it with other citizens in a thread of a forum application.
+1.1 Creative and knowledgeable citizens, who might come up with a suggestion for a solution to a challenge and might do research whether that suggestion might be actually viable and might discuss it with other citizens in a thread of a forum application.
 1.2 Fast and decisive citizens: Their role might be to understand the proposed solutions, comparing them and deciding as fast as possible which might be the one with the most chance or least damage.
 
-2. Operating Personell:
-2.1. Administrators, who might maintain the infrastructure of such a system. The core system might be open source, so anyone might be able to review the system and improve it. There might need to be enough administrators, who might be able to be paid eventhough volunteering might be desirable, so errors might be able to be fixed as soon as possible and the webservice might be constantly kept online. Only through the course of operation might be able to tell how many administrators might be required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and and a 7th administrator for any eventualities.
+2. Operating Personnel:
+2.1. Administrators, who might maintain the infrastructure of such a system. The core system might be open source, so anyone might be able to review the system and improve it. There might need to be enough administrators, who might be able to be paid even though volunteering might be desirable, so errors might be able to be fixed as soon as possible and the webservice might be constantly kept online. Only through the course of operation might be able to tell how many administrators might be required, but at least 6 with an 8 hour shift to guarantee 24/7 coverage and and a 7th administrator for any eventualities.
 2.2. Operators to verify users and other operators.
 2.3. Moderators: Moderating the discussions channels
 2.4. Verifiers: Verifying new knowledge entries
@@ -76,7 +76,7 @@ The D5 might require the following to operate:
 3.3. Client devices (any device with access to internet and sufficient computation power)
 3.4. Physical location (to send/receive letters, technical support, residence/bureau for personell, etc)
 
-4. Voice Of Huaminty Foundation funding the administrators, operators, moderators, coordinators and the necessary technical infrastructure.
+4. Voice Of Humanity Foundation funding the administrators, operators, moderators, coordinators and the necessary technical infrastructure.
 
 5. Local political party with representatives, who might have been authorized to access such a D5 system. So if a decision has been made, to announce it as soon as possible in the local legislative organization.
 ________
@@ -91,8 +91,8 @@ Workflow for a decision:
 7) The reason might need to be checked with this document "42?" by an SOTA AI model to qualify as valid veto.
 8) If a veto might have been recognized as valid, the members of the thread might have to discuss and vote for the "ready" status again.
 9) This process might need to be repeated until either it might be voted "ready" or might be voted "veto accepted".
-10) To avoid interpretation of silence as consent through technological difficulty, there might be an annual "request to silence" to which one might have to veto. For this veto any reason might be accepted automatically until the next "request for silence", after which one might loose the status of verificiation and the account might need to be verified again. 
-11) To avaoid the AI application locking out all authorized and verified citizens, everyone might be able to "request offline meeting", where the AI application might have to prove it's correct operation by asking volunteers to meet the citizen who might have requested such meeting to the best of the ability of the volunteer. If the system might fail to organize volunteer after 3 attempts each attempt spanning at least a year, a new instance might need to be instanciated.   
+10) To avoid interpretation of silence as consent through technological difficulty, there might be an annual "request to silence" to which one might have to veto. For this veto any reason might be accepted automatically until the next "request for silence", after which one might loose the status of verification and the account might need to be verified again. 
+11) To avoid the AI application locking out all authorized and verified citizens, everyone might be able to "request offline meeting", where the AI application might have to prove it's correct operation by asking volunteers to meet the citizen who might have requested such meeting to the best of the ability of the volunteer. If the system might fail to organize volunteer after 3 attempts each attempt spanning at least a year, a new instance might need to be instantiated.   
 12) The result of the vote might be published to a public log.
 13) One a proposal might have been accepted as "ready" the representative might announce in the government meeting new entries on the log.
 14) Once the D5-party might be elected as absolute majority (51%), the representative might change the law accordingly.
@@ -109,7 +109,7 @@ Failsafe mechanisms:
 - Human representative, who might have received a long term psychological assessment of aptitude.
 - That human representative might request a predefined volunteer of a channel as expert to be present at congress.
 - Decentralization of the system through a peer-to-peer consensus mechanism.
-- System could be accessed with ad hoc mesh network off grid (meshtastic)
+- System could be accessed with ad hoc mesh network off grid (meshtastic or meshcore protocol)
 - Human moderators supervising the agentic systems.
 - Corrupt representative might be able to be deelected by the authorized ballot participants swiftly.
 - Operators of the Voice of Humanity foundation provides trustable operators, who might be undergoing continuous assessment of their alignment to the guidelines of the foundation.
@@ -122,17 +122,17 @@ Current tech stack:
 	- Internet connection with a gateway node providing access to read and request to publish a message.
 	- The gateway node instance might be able to be either selected by the user from the official list hosted on the voice of humanity foundation website or self hosted.
 	- Self Compilable
-	- Request a UUID and public encrpytion key automatically.
-	- Might send an encrpyted message with the public key of the authentication node for privacy.
-	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrpyted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request might have been denied.
-	- The user might have the freedom to send the encrpyted string to the Voice of Humanity foundation for review by human after the verification with altcha. Only messages which might be decrypted by the authorization node might be actually sent for human review.
+	- Request a UUID and public encryption key automatically.
+	- Might send an encrypted message with the public key of the authentication node for privacy.
+	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrypted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request might have been denied.
+	- The user might have the freedom to send the encrypted string to the Voice of Humanity foundation for review by human after the verification with "altcha". Only messages which might be decrypted by the authorization node might be actually sent for human review.
 	- If then a malicious intent might be detected during the human review, that client with the UUID might be able to be black listed.
-	- A client might be able to request permission to vote, after the identitiy of the client might have been verified using the API for online identification of local governments.
+	- A client might be able to request permission to vote, after the identity of the client might have been verified using the API for online identification of local governments.
 
 2. Gateway Node:
 	- Self Compilable, UUID of the gateway node might be registered in authorization node
 	- Might host a REST API to access to the decentralized data and request to publish messages.
-	- Might relay encrpyted publish message request to the authorization node. 
+	- Might relay encrypted publish message request to the authorization node. 
 	- Might be able to be requested for black listing, if many malicious clients activity might have been detected.
 
 3. Authorization node.
@@ -142,47 +142,47 @@ Current tech stack:
 	- All activity might require authorization by the decentral secret management system.
 	- Might have a local RAG pipeline with a knowledge base and guard rail system to verify that a new message might not be spam.
 	- If the message might be verified, it might update the data of the forum/knowledge base.
-	- Might provide API to accept pull requests for the source code on redicle repo might be authorized by the maintenance team.
+	- Might provide API to accept pull requests for the source code on radicle repo might be authorized by the maintenance team.
 	- A request to black list a authorization node might be sent to the decentral secret management system by the maintainer of an authorization node.
 	- After the request for black listing might have been issued, all activities by that node might be suspended until the request might have been processed.
 	- After sending one request to black list that original authentication node might also be suspended to prevent one node accusing all others.
 
 4. Decentral secret management system:
 	- It might be a dApp at first instantiated and might be funded by the voice of humanity foundation and might act as a single instance.
-	- It's purpose might be to keep regenerating the credendencials in certain intervals to avoid being brute forced.
-	- The credencials might be encrpyted in a file on a virtual disk on a RAM and might not be stored anywhere else to avoid being brute forced.
+	- It's purpose might be to keep regenerating the credentials in certain intervals to avoid being brute forced.
+	- The credentials might be encrypted in a file on a virtual disk on a RAM and might not be stored anywhere else to avoid being brute forced.
 	- List of credentials to be stored:
-		- All public keys, UUIDs of the client applicaiton, and whether it might be blocked, and whether it might have permissions to vote.
+		- All public keys, UUIDs of the client application, and whether it might be blocked, and whether it might have permissions to vote.
 		- All public keys and UUIDs of the gateway node, and whether it might be blocked
 		- All public keys and UUIDs of the authorization node, and whether it might be blocked
-		- The private key private key used to encrypt the file with the credencials might be also on the temporal ram on a RAM of the decentral private computing cluster and might be also regulary regenerated.
+		- The private key private key used to encrypt the file with the credentials might be also on the temporal ram on a RAM of the decentral private computing cluster and might be also regularly regenerated.
 		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep changing the root password as well to avoid "harmful maid attacks".
 	- Might manage votes regarding black listing of authentication nodes.
 
-5. Publically accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.
+5. Publicly accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.
 ________
 Old tech stack:
 1. Client-Device:
 	- Internet connection with a centralized REST server might provide access to read only access to channels.
 	- The instance of the centralizes REST server might be able to be chosen by the user from the official list hosted on the Voice of Humanity foundation.
-	- Optional features because it might require enough computing power for verification of data integregity. If hosted, it might be able to work as a gateway with write access, usually exceeding the capabilities of commonly affordable smartphone:
+	- Optional features because it might require enough computing power for verification of data integrity. If hosted, it might be able to work as a gateway with write access, usually exceeding the capabilities of commonly affordable smartphone:
 		- Which might be hosting a minimal unauthorized node decentral communication Protocol with write access to channels.
 		- Which might be hosting a minimal authorized node for decentral communication Protocol with write access to ballots.
 
 2. Server:
-2.1 P2P authorized node as bootstrapping nodes which might be forked custom instance of radicle and might be forked as an custom instance of verizexe (Multiple independent instances desireable)
-2.2 P2P authorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results, knwoledge base) and private data (Blacklist, each ballot votes) with write access.
+2.1 P2P authorized node as bootstrapping nodes which might be forked custom instance of radicle and might be forked as an custom instance of verizexe (Multiple independent instances desirable)
+2.2 P2P authorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results, knowledge base) and private data (Blacklist, each ballot votes) with write access.
 2.3 P2P unauthorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results) and private data (Blacklist, each ballot votes) with only read access.
 2.4 P2P authorized node with read only access to public data which might be interfacing a centralized REST server for quick information access.
-2.5 P2P authorized node with code review bot, which might be verifying request for change and initiating a ballot of the code maintainance team.
-2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a malitious intent might have been recognized, before blacklisting human moderator might need to review that malitious action.
+2.5 P2P authorized node with code review bot, which might be verifying request for change and initiating a ballot of the code maintenance team.
+2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a malicious intent might have been recognized, before blacklisting human moderator might need to review that malicious action.
 2.7 P2P authorized node for quiz generator, which might be submitting quiz to human verifiers.
 2.8 P2P authorized node for authorization (of users, operators, domains to centralized server as information source).
-2.9 P2P authorized node for managing "main" cryptowallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key might be typed in manually by the highest administrator.
+2.9 P2P authorized node for managing "main" crypto-wallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key might be typed in manually by the highest administrator.
 ________
 MISC:
 - Example for online identification API which might be provided by government for voting called "eID" in Germany: https://www.personalausweisportal.de/Webs/PA/DE/wirtschaft/diensteanbieter-werden/einsatzmoeglichkeiten/einsatzmoeglichkeiten-node.html
-- Knowledge Base: Knowledge might be mainted as unstructured text from which a Neo4j with GPU acceleration which might be generated for a RAG pipeline.
+- Knowledge Base: Knowledge might be maintained as unstructured text from which a Neo4j with GPU acceleration which might be generated for a RAG pipeline.
 - decentralized webhosting:
 	- Decentral Open source code base: https://radicle.xyz/
 	- Decentral private computing:
@@ -192,7 +192,7 @@ MISC:
 	- Etherum Smart Contract for most important information, which might need to be crowd-funded.
 
 
-Outdated reserach notes:
+Outdated research notes:
 	- Decentral webhosting: https://ipfs.tech/
 	- Decentral Database:  "proof of spacetime" -> With dedication, it might be able to be overrun.
 		- https://spec.filecoin.io/
@@ -211,40 +211,40 @@ Which might be known yet might be unsolved challenges:
 - Integration of quantum cryptography might require special hardware, which might not be available for consumers soon enough. Even if it might become available, it might be too expensive to obtain or to maintain.
 __________
 challenges which might already be solved:
-- What one might do, if the system might be inaccessible for some reason? (Coup d'etat challenge) -> Decentralation (Offline First Principle)
-- Organized Radicalist group with bad intentions might create a fake majority (Radicalist challenge) -> Black list 
+- What one might do, if the system might be inaccessible for some reason? (Coup d'etat challenge) -> Decentralization (Offline First Principle)
+- Organized Radicalist group with bad intentions might create a fake majority (Racialist challenge) -> Black list 
 - Black List challenge: Ethical, Practical -> If someone might not pass the test, there might be a ballot from that channel whether to actually black list that instance,
 where the users might be able to see the answer to the question.
 - Prioritization of Nodes challenge if filecoin might be used, the each nodes might need to donate the filecoin back to the account of the "main" node or so called "bootstrap" node,
-which address might be documented in the etherum smart contract. -> Filecoin might not be used, but "verizexe"
+which address might be documented in the Ethereum smart contract. -> Filecoin might not be used, but "verizexe"
 - Fake accounts challenge (Verification of nodes might be done by main node of local government)
-- No need for Load Balancing if the P2P instances might be truely p2p (verizexe using off chaing computation)
+- No need for Load Balancing if the P2P instances might be truly p2p (verizexe using off chain computation)
 - Currently there might be decentrally managed domains (e.g. .onion), but there might be a need for single point of entry. ("decentral domains" for wallet might not be it) -> p2p nodes might offer API to interact with federated frontend servers for ease of access
 - Verification of code integrity of nodes:
-	1. Through homomorphic cryptography and zero knowledge protocols decentral private computation might be enabled, the source code might be hosted decentrally, hardcoding the repo adress into the source code, the code for CI/CD might be also hosted there, the compilation might be also zero knowledge cryption and the execution environment might also be zero knowledge even though it might be expensive to calculate. It might probably be based on nexus-zkvm.
-	 Incorporating radicle-repos into zkvm uncorruptable repo
-	2. The procedure for RFC (Request for Change) might be unchangable
+	1. Through homomorphic cryptography and zero knowledge protocols decentral private computation might be enabled, the source code might be hosted decentrally, hardcoding the repo address into the source code, the code for CI/CD might be also hosted there, the compilation might be also zero knowledge encryption and the execution environment might also be zero knowledge even though it might be expensive to calculate. It might probably be based on nexus-zkvm.
+	 Incorporating radicle-repos into zkvm incorruptible repo
+	2. The procedure for RFC (Request for Change) might be unchangeable
 	3. Everyone who might manage to remain in the code maintenance team for at least a year might be able to submit a pull request for code review by an bot.
 	4. The code review might check that the changes might not be violating against the procedures for RFC or changes to it.
 	5. If the code review bot might have checked it, there might be a vote by the code maintenance team to accept that RFC to the code base, which might trigger a CI/CD workflow.
 	6. Hosting bot instances might be optional (Code review, moderator, quiz generator, explainer)
-- Bot war Problm (Moderator Bot might not work as expected and goes rogue) -> Different bot might be in charge of code review.
+- Bot war challenge (Moderator Bot might not work as expected and goes rogue) -> Different bot might be in charge of code review.
 - Representative challenge: There might be a possibility for the representative to become prime minister or similar roles for which it might be required to make own decisions based on classified information. Therefore that representative might need to decline such roles. Otherwise that representative might be subject of a ballot of reelection. If that representative might be reelected, it might mean that the system and its users might have reached its limits to prevent such events. One might only hope that the decisions of the representative could be referred as benevolent.
-- How local polls might be able to be handled? -> It might be done outside of the system and thus irrelevant for the system. The polls made within this system might be just for making suggestions to the local council and reelecting representatives for that local council if there might be enough supporters to found a local politcal party.
+- How local polls might be able to be handled? -> It might be done outside of the system and thus irrelevant for the system. The polls made within this system might be just for making suggestions to the local council and reelecting representatives for that local council if there might be enough supporters to found a local political party.
 - Authorization of nodes and users:
 	- Since everyone might be free to join, there might be a challenge of flooding with nodes operated by bots/humans for malicious intent.
-	- One solution approach might be authorization for instanciation
+	- One solution approach might be authorization for instantiation
 	- Every ballot instance might need to be authorized
 		- 1. Every operator from the identity verification service might require access to the system for the purpose of authorization.
-		- 2. Every operator might be verified by trusted operators of the Voice of Humanity foundation and the validity might need to be updated at least annualy.
+		- 2. Every operator might be verified by trusted operators of the Voice of Humanity foundation and the validity might need to be updated at least annually.
 		- 3. A citizen of a specific country from the local legal age for voting might request a verification through the system.
 			- There might be a simple quiz about the system to verify that they understand what they might be applying for.
-			- Then they might be typing in all the nessary infomation (Name, Email).
+			- Then they might be typing in all the necessary information (Name, Email).
 			- The system might permanently store it together with a unique node ID, but the list might be private and it might only be possible to ask whether a user might already be black listed or not.
 		- 4. They might receive an email containing a link and a one time key to the specified address which might start a identity verification process with authorized third party operators.
 		- 5. The user might authorized if the operator might type it into the system. 
 		- 6. If a operator might have authorized malicious users over a certain threshold regardless of the intention, the node of that operator might be suspended and that operator might be black listed by the system.
-		- 7. All users authorized by the corrupt operator might be temporalily be excluded from ballots until reverification.
+		- 7. All users authorized by the corrupt operator might be temporarily be excluded from ballots until reverification.
 		- 8. If that reverification might not happen in time, that user might be permanently blacklisted.
 - Trolling: Daily Rate Limit for publish requests
 - Malicious Client attack: Anyone might be able to create a lot of client instances and sends publish requests, which might be then denied and then requests to be reviewed by human and thus might overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
@@ -256,17 +256,18 @@ Notes on implementation of the bots:
 2. Moderator bot:
 2.1 Principles of the moderator bot:
   - If moderator bot might remove a comment, that might have removed a comment might need to be:
-	- publically avaiable
+	- publicly available
 	- the author might be able to request it to be reviewed by a member of the channel if falsely removed
   - A comment might need to:
 	- refer to a verified knowledge base entry
 	- comply to the publication policy
 2.2 Publication Policy:
 - One might seek to be kind, to speak truthfully, to say useful things which might be necessary.
-- If one might recognizse malitious action, one might seek to report that action proactively to the moderators. 
+- If one might recognizes malicious action, one might seek to report that action proactively to the moderators.    
 
 
-3. Explainer bot
+3. Explainer bot   
+[Todo update]   
 
 4. Quiz generator bot might ask such a question:   
 "How might everyone be on the way to Pro?"
