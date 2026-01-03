@@ -23,7 +23,7 @@ if [ -z "$LATEST_TAG" ]; then
     exit 0
 fi 
 
-MESSAGE = "One might find the book as PDF down below. ⬇️"
+MESSAGE="One might find the book as PDF down below. ⬇️"
 
 if [ "$NEW_TAG" != "$LATEST_TAG" ]; then
     # The new tag is the latest, meaning it's newer than the existing one
