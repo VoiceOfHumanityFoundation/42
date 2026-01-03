@@ -30,7 +30,7 @@ if [ "$NEW_TAG" != "$LATEST_TAG" ]; then
     echo "✅ Success: $NEW_TAG is **NEWER** than the latest existing tag ($LATEST_TAG)."   
     #new_diff_numstat=$(git diff $LATEST_TAG --numstat | tr '-' 'b')
     git diff $LATEST_TAG --numstat | tr '-' 'b' > "CHANGELOG.md"
-    gh release create $1 --title "$1" --notes "$new_diff_numstat" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md'
+    gh release create $1 --title "$1" --notes "$MESSAGE" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md'
 elif [ "$NEW_TAG" = "$LATEST_TAG" ]; then
     # The existing tag is still the latest, meaning the new tag is older or equal
     echo "⚠️ Warning: $NEW_TAG might be **EQUAL** to the latest existing tag ($LATEST_TAG). Increment the version!"
@@ -38,7 +38,7 @@ elif [ "$NEW_TAG" = "$LATEST_TAG" ]; then
     #minus_one_diff_numstat=$(git diff $LATEST_MINUS_ONE --numstat | tr '-' 'b')
     git diff $LATEST_MINUS_ONE --numstat | tr '-' 'b' > "CHANGELOG.md"
     gh release delete "$1" --yes
-    gh release create $1 --title "$1" --notes "$minus_one_diff_numstat" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md' 
+    gh release create $1 --title "$1" --notes "$MESSAGE" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md' 
 else
     # Fallback for unexpected results, though rare with sort -V
     echo "🤷 Might have not been able to determine the correct version comparison."
