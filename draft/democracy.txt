@@ -270,6 +270,6 @@ Notes on implementation of the bots:
 [Todo update]   
 
 4. Quiz generator bot might ask such a question:   
-"How might everyone be on the way to Pro?"
+"How might everyone seek to be on the way to Pro?"
 
 
