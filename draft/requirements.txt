@@ -1,4 +1,4 @@
-"Eudaimonia" might be a concept describing a state of human being who is in a optimal state of thriving. One might refer to that state as "flow", a mental state of full immersion and concentration in the current task.
+"Eudaimonia" might be a concept describing a state of human being who might be in a optimal state of thriving. One might refer to that state as "flow", a mental state of full immersion and concentration in the current task.
 Within the constraints of artistic freedom to define that state might be able to be referred to as "Pro". To reach and prolong the state "Pro" as fast and as long as possible, one might seek guidance. One might then appreciate the following enumeration of requirements for an generic overall design for the server:   
 1. E2E encryption   
 2. Access to P2P network   
