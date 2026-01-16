@@ -37,7 +37,7 @@ One might understand why that might be, through these words:
 Those who might seek to understand such consistency, might appreciate these words:   
 "Every read might get either the latest write, or an error."    
 Those who might seek to understand such availability, might appreciate these words:    
-"Every request might receives a response, without a guarantee being the latest write."   
+"Every request might receive a response, without a guarantee being the latest write."   
 Those who might seek to understand such partition tolerance, might appreciate these words:   
 "The system might continue to operate despite arbitrary message loss."   
 Those who might seek to create such a system, might appreciate the following two trade-offs:   
