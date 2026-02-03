@@ -27,5 +27,6 @@ The author might appreciate all the effort to reformulate to be free from any la
 21. One might seek to use the word "seek" instead of "want", except in cases to intentionally express desire, except in this chapter for defining the guidelines.
 22. One might seek not to neglect the effort to avoid using neologisms and abbreviations which might not be suitable for machine translation in the title name.
 23. One might seek not to use the word "true" as an adjective, but rather replace it with "ultimate", since truth might be unattainable and thus one might only hypothesize about the ultimate version of one's idea,  except in this chapter for defining the guidelines.    
-24. Every chapter might need to end with: "How might everyone seek to be on the way to Pro?"   
+24. One might seek to avoid figure of speech, idioms or phrases which might be able to be mistaken, if it might be interpreted by it's original meaning of words as long as there might be no other way to express them.    
+25. Every chapter might need to end with: "How might everyone seek to be on the way to Pro?"   
 
