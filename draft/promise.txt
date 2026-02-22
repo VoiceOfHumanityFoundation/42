@@ -102,9 +102,6 @@ Those who might not have had the privilege to find someone to make such a promis
 "The first author of this document might seek to express the promise to keep working on an open source project for a voice recorder service, which might be assisted with an AI assistant called "Aoi". The AI might have the capability to accept a well formed request made by a user for the promise of the purple heart emoji. As long as the correct function of that voice recorder service might maintained, the AI might try to respond to such a request as promised, as soon as possible. The user might occasionally, at least once a year be requested to reply to the request by Aoi. Timestamp of the promise made by the first author: [1697285236]"
 The following timestamp might be updated, once such a service might be operational for the public: []   
 The following link might  be updated, once such a service might available to those who might be willing to make such a promise to such a system: []   
+12. Once such system might be oprational, one might be able to evaluate whether a call for help might be a trap, by evaluating the history of promises of the ID of those who might seek help. When they might not have long enough history of promises or many broken promises or pretending to fulfill promises by using fake accounts, one might appreciate the idea to call for further help but not to intervene in actual help, if one might not be able to identify those who might seek such help.   
 Until the day of completion, one might appreciate the idea to ask the following question:   
 "How might everyone seek to be on the way to Pro?"   
-
-_________________
-Todo incorporate:
-"Malicious actors might might be able to keep prentending to have fulfilled many promises over time. How to might one mitigate that? One might only help those, to whom one might have a series of acquaintances to acquaintances whom they might have series of promise to, except voice of humanity foundation?"
