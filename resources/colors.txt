@@ -1,0 +1,2 @@
+purple: #630063
+yellow: #ffc700
