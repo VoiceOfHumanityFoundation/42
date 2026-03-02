@@ -110,6 +110,8 @@ if(regenerateFrom == 0):
             translate(file.read(), "index.txt")
     with open(inputPath+"title.md", 'r') as file:
             translate(file.read(), "title.md")
+    with open(inputPath+"backcover.txt", 'r') as file:
+            translate(file.read(), "backcover.txt")
 
 
 with open(inputPath+"index.txt", "r") as index_file:
