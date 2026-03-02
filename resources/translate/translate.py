@@ -104,7 +104,7 @@ def translate(rawString, title):
 if(regenerateFrom == 0):
     with open(inputPath+"disclaimer.txt", 'r') as file:
             translate(file.read(), "disclaimer.txt")
-    with open("../README.md", 'r') as file:
+    with open("../../README.md", 'r') as file:
             translate(file.read(), "README.md")
     with open(inputPath+"index.txt", 'r') as file:
             translate(file.read(), "index.txt")
