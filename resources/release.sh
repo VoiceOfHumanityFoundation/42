@@ -38,7 +38,7 @@ elif [ "$NEW_TAG" = "$LATEST_TAG" ]; then
     #minus_one_diff_numstat=$(git diff $LATEST_MINUS_ONE --numstat | tr '-' 'b')
     git diff $LATEST_MINUS_ONE --numstat | tr '-' 'b' > "CHANGELOG.md"
     gh release delete "$1" --yes
-    gh release create $1 --title "$1" --notes "$MESSAGE" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md' 
+    gh release create $1 --title "$1" --notes "$MESSAGE" --prerelease=false --draft=false './book/42_en_latest.pdf' './book/42_german_latest.pdf' './book/42_spanish_latest.pdf' './book/42_french_latest.pdf' './CHANGELOG.md' 
 else
     # Fallback for unexpected results, though rare with sort -V
     echo "🤷 Might have not been able to determine the correct version comparison."
