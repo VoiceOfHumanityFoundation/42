@@ -1,0 +1,8 @@
+#rm german_A5.txt
+#bash composeBook.sh > german_A5.txt #need to break links for the margin, probably need to make a different title.md
+#pandoc en.txt -o ./book/42_en_latest.pdf
+#pandoc -V geometry:margin=1in -o ./book/42_en_latest.pdf english.txt
+pandoc -V papersize:a5  -V geometry:margin=0.625in -o ./book/42_german_latest_A5.pdf german_A5.txt
+#git add ./book/42_en_latest.pdf
+#git commit -m "Updated edition"
+#git push

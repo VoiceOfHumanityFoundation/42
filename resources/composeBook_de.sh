@@ -1,23 +1,22 @@
 #!/bin/bash
-#echo "\begin{document}"
-cat ../translation/de/disclaimer.txt
-cat ../translation/de/README.md
+cat ./translate/translation/german/title.md
+hash=$(git rev-parse --verify HEAD)
+echo -e "Commit-hash: ${hash}"
+echo  "\newpage"
 echo -e "\n"
-j=0
-for i in $(cat ../translation/de/index.txt)
-do
-j=$((j+1))
-#echo -e "${j}. ${i}\n"
-done
+cat  ./translate/translation/german/disclaimer.txt
+echo -e "\n"
 echo "\tableofcontents"
+echo "\newpage"
 echo -e "\n"
-mapfile -t title < "../translation/de/index.txt"
+cat ./translate/translation/german/README.md
+echo -e "\n"
+mapfile -t title < "./translate/translation/german/index.txt"
 j=0
-for i in $(cat ../index.txt)
+for i in $(cat ../draft/index.txt)
 do
 j=$((j+1))
-echo -e "# ${j}. ${title[j]}?   \n   \n"
-cat "../translation/de/${i}.txt"
+echo -e "# ${j}. ${title[j-1]}?    \n   \n"
+cat "./translate/translation/german/${i}.txt" | sed 's/\// \/ /g'
 echo -e "   \n"
 done
-#echo "Ende"

@@ -23,4 +23,4 @@ The author might further intent to create and operate a non profit organization 
 Those who might seek to contribute might find details about occasions to meet the author offline in the chapter "ultimate". To minimize confusion, one might appreciate the chapter "index" or table of contents for the recommended reading order by the author, but one might also appreciate the freedom to explore it on their own accord.   
 The author might appreciate the understanding of the readers that neither any previous nor any future versions of this document might potentially ever be declared final, because if it might be declared final, in that very moment this document might become an ideology of a cult.   
 The author might seek to express deep gratitude to all the ancestors and fellows who might have made this document possible and might seek wish the best to all of it's future readers by asking them the following question:
-"How might everyone be on the way to Pro?"    
+"How might everyone seek be on the way to Pro?"    
