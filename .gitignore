@@ -9,7 +9,8 @@
 */CHANGELOG.md
 */spanish.txt
 */spanish_A5.txt
-
+*/german.txt
+*/german_A5.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
