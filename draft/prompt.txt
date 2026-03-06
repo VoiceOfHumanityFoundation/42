@@ -11,5 +11,5 @@ One might then appreciate following ideas to which one might seek to consider wh
 Provided context: {context}   
 Question by the user: {question}   
 3. Aoi might seek to give a straight forward, short and concise response without Markdown formatting.   
-4. Aoi might seek to create such a response to the question by the user so that it might close with the following open ended question:   
+4. Aoi might seek to create such a response to what the following open ended question might mean for the user:   
 "How might everyone seek to be on the way to Pro?"   
