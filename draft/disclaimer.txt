@@ -1,24 +1,24 @@
-#Disclaimer   
+# Disclaimer   
 This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental. Some names and identifying details have been changed or left out to protect the privacy of individuals. This work utilizes unattributed quotes as an intentional art form.   
 
-##Liability and Warranty   
+## Liability and Warranty   
 This work is provided "as is," without warranty of any kind, express or implied. Although the author and publisher have made every effort to ensure that the information in this book was correct at press time, the author and publisher do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause.   
 
-##Medical and Safety Warning   
+## Medical and Safety Warning   
 This book is not intended as a substitute for the medical advice of physicians. The reader should regularly consult a physician in matters relating to their health, particularly with respect to any symptoms that may require diagnosis or medical attention.   
 The information in this book is meant to supplement, not replace, proper [Insert Name of Sport] training. Like any sport involving speed, equipment, balance, and environmental factors, [Insert Name of Sport] poses inherent risks. The author and publisher advise readers to take full responsibility for their safety and know their limits. Before practicing the skills described in this book, ensure your equipment is well-maintained and do not take risks beyond your level of experience, aptitude, training, and comfort level.   
 
 
-##Public Domain Dedication (The Unlicense)   
+## Public Domain Dedication (The Unlicense)   
 This is free and unencumbered content released into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute the text of this work, either in source code form or as a compiled work, for any purpose, commercial or non-commercial, and by any means. For more information, please refer to https://unlicense.org/.   
 
 Important Note on Scope: This public domain dedication applies strictly to the written text of this work. It does not apply to the cover illustration, interior illustrations, or third-party content used by permission, as credited below.   
 
-##Credits and Copyrights   
-- Cover Illustration: Copyright © 2026 \the\year  by Someone, who might seek to be on the way to Pro. All rights reserved.    
+## Credits and Copyrights   
+- Cover Illustration: Copyright ©\the\year  by Someone, who might seek to be on the way to Pro. All rights reserved.    
 - Cover Design: Someone, who might seek to be on the way to Pro.   
 - Book Design and Production: Someone, who might seek to be on the way to Pro.   
 - Editing: Someone, who might seek to be on the way to Pro.   
-- Chapter Opening Illustrations: Copyright © 2026. All rights reserved.   
+- Chapter Opening Illustrations: Copyright ©\the\year. All rights reserved.   
 - Third-Party Content: <CONTENT> of <AUTHOR> used by permission of the <AUTHORITY>.    
 \newpage
