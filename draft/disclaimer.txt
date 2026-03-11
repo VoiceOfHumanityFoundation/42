@@ -15,10 +15,10 @@ This is free and unencumbered content released into the public domain. Anyone is
 Important Note on Scope: This public domain dedication applies strictly to the written text of this work. It does not apply to the cover illustration, interior illustrations, or third-party content used by permission, as credited below.   
 
 #### Credits and Copyrights    
-- Cover Illustration: Copyright ©\the\year  by Someone, who might seek to be on the way to Pro. All rights reserved.    
-- Cover Design: Someone, who might seek to be on the way to Pro.   
-- Book Design and Production: Someone, who might seek to be on the way to Pro.   
-- Editing: Someone, who might seek to be on the way to Pro.   
-- Chapter Opening Illustrations: Copyright ©\the\year. All rights reserved.   
+- Cover Illustration: Copyright ©\the\year\  by Someone who might seek to be on the way to Pro. All rights reserved.    
+- Cover Design: Someone who might seek to be on the way to Pro.   
+- Book Design and Production: Someone who might seek to be on the way to Pro.   
+- Editing: Someone who might seek to be on the way to Pro.   
+- Chapter Opening Illustrations: Copyright ©\the\year\ All rights reserved.   
 - Third-Party Content: <CONTENT> of <AUTHOR> used by permission of the <AUTHORITY>.    
 \newpage

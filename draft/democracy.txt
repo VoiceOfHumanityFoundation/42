@@ -183,17 +183,26 @@ ________
 MISC:
 - Example for online identification API which might be provided by government for voting called "eID" in Germany: https://www.personalausweisportal.de/Webs/PA/DE/wirtschaft/diensteanbieter-werden/einsatzmoeglichkeiten/einsatzmoeglichkeiten-node.html
 - Knowledge Base: Knowledge might be maintained as unstructured text from which a Neo4j with GPU acceleration which might be generated for a RAG pipeline.
-- decentralized webhosting:
-	- Decentral Open source code base: https://radicle.xyz/
-	- Decentral private computing:
-		- Protocol + Computing power: https://github.com/aleph-im/aleph-vm/tree/main/runtimes/aleph-debian-12-python
-		- Protocol: https://github.com/EspressoSystems/veri-zexe
-	- Decentral Storage for encrypted Docker images: https://ipfs.tech/
-	- Etherum Smart Contract for most important information, which might need to be crowd-funded.
+-  There might have not been a public report known to the author of this document that a "Q-day" (q for quantum) might have happened at the time of writing (\today ), which might the first event for a powerful and reliable enough quantum computer to break SOTA encryption.
+- decentralized Application (dApp):
+	- post quantum computer (PQC) safe p2p protocol: https://github.com/saorsa-labs/saorsa-gossip
+	- PQC-safe algorithms such as ML-KEM/DSA(SHA3) support: https://github.com/open-quantum-safe/liboqs
+		- PQC-safe TLS (centralized) : https://github.com/wolfSSL/wolfssl
+		- For Android (proof of concept): https://github.com/geovandro/PQCryptoOnAndroid
+		- For NVIDIA GPUs: https://github.com/NVIDIA/cuPQC and https://github.com/ingonyama-zk/icicle
+		- Converting them for AMD: https://github.com/ROCm/HIPIFY
+		- Convert the hipified cude c++ code for mobile phones: https://github.com/CHIP-SPV/chipStar
+		
+	- Decentral PQC-safe loadbalancing: https://github.com/linkerd/linkerd2
+	- Decentral medium agnostic mesh protocol (not PQC-safe yet) for LoRa-Mesh: https://github.com/markqvist/Reticulum
+- Decentral private computing:
+	- Protocol + Computing power (not natively PQS-save): https://github.com/aleph-im/aleph-vm/tree/main/runtimes/aleph-debian-12-python
 
-
-Outdated research notes:
-	- Decentral webhosting: https://ipfs.tech/
+Outdated research notes :
+	- Decentral Open source code base (not natively PQS-save): https://radicle.xyz/
+	- Protocol (depricated): https://github.com/EspressoSystems/veri-zexe
+	- Decentral Storage for encrypted Docker images (requires centralized infrastructure ): https://ipfs.tech/
+	- Ethereum Smart Contract for most important information, which might need to be crowd-funded.
 	- Decentral Database:  "proof of spacetime" -> With dedication, it might be able to be overrun.
 		- https://spec.filecoin.io/
 		- https://docs.filecoin.io/builder-cookbook/dapps/decentralized-database
@@ -201,18 +210,22 @@ Outdated research notes:
 
 ____________
 Which might be known yet might be unsolved challenges:
+- Cheating during knowledge tests:
+	- If the user might be cheating during tests (or malicious bot), then that user might have sufficient knowledge to stay in the thread and propagate false information. Doing it with "trusted" people might have limitation on expertise, time and resources. For most people a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure.
+__________
+challenges which might already be solved:
+- What if the centralized internet infrastructure might collapse?
+	-> There might be able to create a communication network using PQC-safe mesh networks with supernodes bridging direction and asynchronous communication and Smart contracts with Proof of Stake (low bandwidth, low energy) ledger.
 - Verification process of the knowledge base/quiz
 	- Writing history through corrupt historians challenge.
 	- Only an expert human might be able to verify, but it might mean that it might be a bottleneck.
 	- And discussing it in public channels might mean that it will leak the information.
 	- And discussing it in private channels might be against transparency.
-- Cheating during knowledge tests:
-	- If the user might be cheating during tests (or malicious bot), then that user might have sufficient knowledge to stay in the thread and propergate false information. Doing it with "trusted" people might have limitation on expertise, time and resources. For most people a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure.
+	-> Knowledge might be able to be tested against the consistency of the document called "42?"
 - Integration of quantum cryptography might require special hardware, which might not be available for consumers soon enough. Even if it might become available, it might be too expensive to obtain or to maintain.
-__________
-challenges which might already be solved:
+	-> PQS-Safe algorithms might not require specialized hardware.
 - What one might do, if the system might be inaccessible for some reason? (Coup d'etat challenge) -> Decentralization (Offline First Principle)
-- Organized Radicalist group with bad intentions might create a fake majority (Racialist challenge) -> Black list 
+- Organized radical groups with bad intentions might create a fake majority (Racialist challenge) -> Black list 
 - Black List challenge: Ethical, Practical -> If someone might not pass the test, there might be a ballot from that channel whether to actually black list that instance,
 where the users might be able to see the answer to the question.
 - Prioritization of Nodes challenge if filecoin might be used, the each nodes might need to donate the filecoin back to the account of the "main" node or so called "bootstrap" node,
@@ -251,7 +264,9 @@ which address might be documented in the Ethereum smart contract. -> Filecoin mi
 _____________
 Notes on implementation of the bots:
 1. Code review bot
-
+	- Opencode (coding agent): https://github.com/anomalyco/opencode/
+	- GSD (meta prompt context management): https://github.com/gsd-build/get-shit-done/
+	- 
 
 2. Moderator bot:
 2.1 Principles of the moderator bot:
