@@ -1,3 +1,4 @@
+prompt
 peace
 good
 diversity
@@ -34,7 +35,6 @@ humanity
 promise
 democracy
 foundation
-prompt
 guideline
 letter
 parenting

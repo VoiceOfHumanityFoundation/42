@@ -1,6 +1,10 @@
 #AI
 .planning
 
+# legal fortification notes
+resources/fortify.txt
+resources/legal_research.txt
+
 # temporary files for generation
 */english.txt
 */english_A5.txt
