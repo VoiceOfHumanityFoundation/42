@@ -192,6 +192,7 @@ MISC:
 		- For NVIDIA GPUs: https://github.com/NVIDIA/cuPQC and https://github.com/ingonyama-zk/icicle
 		- Converting them for AMD: https://github.com/ROCm/HIPIFY
 		- Convert the hipified cude c++ code for mobile phones: https://github.com/CHIP-SPV/chipStar
+		- Search mechanism, if data cannot be fully replicated on a node, might be outdated: https://github.com/snark87/libkademlia
 		
 	- Decentral PQC-safe loadbalancing: https://github.com/linkerd/linkerd2
 	- Decentral medium agnostic mesh protocol (not PQC-safe yet) for LoRa-Mesh: https://github.com/markqvist/Reticulum
@@ -211,7 +212,7 @@ Outdated research notes :
 ____________
 Which might be known yet might be unsolved challenges:
 - Cheating during knowledge tests:
-	- If the user might be cheating during tests (or malicious bot), then that user might have sufficient knowledge to stay in the thread and propagate false information. Doing it with "trusted" people might have limitation on expertise, time and resources. For most people a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure.
+	- If the user or harmful bots might be tempted to cheat during the quiz sessions. in order to stay in the thread for voting rights or to propagate false information. The implementations of such tests with "trusted" moderators might have limitation on expertise, time and resources. For most users such a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure. By requiring reasons for veto on the forum thread votes, which might get verified on existing knowledge and on the document called "42?", one might be able to prevent obviously wrong result of such threads. If a harmful activity might be detected, the write access privileges be revoked. This stakes of risk might be the only mechanism capable of preventing abuse, but since there might be no definitive solution, this point might remain until another system might be suggested and implemented.
 __________
 challenges which might already be solved:
 - What if the centralized internet infrastructure might collapse?
@@ -232,7 +233,7 @@ where the users might be able to see the answer to the question.
 which address might be documented in the Ethereum smart contract. -> Filecoin might not be used, but "verizexe"
 - Fake accounts challenge (Verification of nodes might be done by main node of local government)
 - No need for Load Balancing if the P2P instances might be truly p2p (verizexe using off chain computation)
-- Currently there might be decentrally managed domains (e.g. .onion), but there might be a need for single point of entry. ("decentral domains" for wallet might not be it) -> p2p nodes might offer API to interact with federated frontend servers for ease of access
+- There might be no need for single point of entry, since p2p nodes might be able to be found using DHT (distributed hash tables) and bootstrap nodes, which might offer API to interact with federated frontend servers for ease of access
 - Verification of code integrity of nodes:
 	1. Through homomorphic cryptography and zero knowledge protocols decentral private computation might be enabled, the source code might be hosted decentrally, hardcoding the repo address into the source code, the code for CI/CD might be also hosted there, the compilation might be also zero knowledge encryption and the execution environment might also be zero knowledge even though it might be expensive to calculate. It might probably be based on nexus-zkvm.
 	 Incorporating radicle-repos into zkvm incorruptible repo
@@ -242,7 +243,7 @@ which address might be documented in the Ethereum smart contract. -> Filecoin mi
 	5. If the code review bot might have checked it, there might be a vote by the code maintenance team to accept that RFC to the code base, which might trigger a CI/CD workflow.
 	6. Hosting bot instances might be optional (Code review, moderator, quiz generator, explainer)
 - Bot war challenge (Moderator Bot might not work as expected and goes rogue) -> Different bot might be in charge of code review.
-- Representative challenge: There might be a possibility for the representative to become prime minister or similar roles for which it might be required to make own decisions based on classified information. Therefore that representative might need to decline such roles. Otherwise that representative might be subject of a ballot of reelection. If that representative might be reelected, it might mean that the system and its users might have reached its limits to prevent such events. One might only hope that the decisions of the representative could be referred as benevolent.
+- Representative challenge: There might be a possibility for the representative to become prime minister, chancellor or similar roles for which it might be required to make own decisions based on classified information, for whichsuch representative might have to make a decision without consulting the D5 system, because that would leak sensitive information, which might endanger the lives of the citizens. This might contradict the principle of radical transparency, but in order to stay compatible with most current democratic systems where there might be classified intels to protect the citizens, one might seek to grant the trust in advance. Those representative who might have been entrusted such a role, might appreciate the design of D5 system to be able to consult this system in private, since search information might reveal sensitive information. Since in most democratic countries, all of the decisions made with the authority of such roles might need to be made public, which might reduce the risk of tyranny. Unless such representative might make fundamentally flawed error, one might seek not to request a resignation based on a specific decision which the other users might have not been consulted, which be announced in the D5 system as well as on the official governmental platform. If the absolute majority of the verified and authorized users for ballots did not veto a such a request for resignation, it the specific representative might need to resign. If that specific representative might refuse such request for resignation, that representative might be revoked their privileged access to the D5 system by the administrators of D5. 
 - How local polls might be able to be handled? -> It might be done outside of the system and thus irrelevant for the system. The polls made within this system might be just for making suggestions to the local council and reelecting representatives for that local council if there might be enough supporters to found a local political party.
 - Authorization of nodes and users:
 	- Since everyone might be free to join, there might be a challenge of flooding with nodes operated by bots/humans for malicious intent.
@@ -261,6 +262,7 @@ which address might be documented in the Ethereum smart contract. -> Filecoin mi
 		- 8. If that reverification might not happen in time, that user might be permanently blacklisted.
 - Trolling: Daily Rate Limit for publish requests
 - Malicious Client attack: Anyone might be able to create a lot of client instances and sends publish requests, which might be then denied and then requests to be reviewed by human and thus might overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
+
 _____________
 Notes on implementation of the bots:
 1. Code review bot
