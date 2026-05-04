@@ -159,6 +159,13 @@ Current tech stack:
 		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep  changing the root password as well to avoid "harmful maid attacks".   
 	- Might manage votes regarding black listing of authentication nodes.   
 	- The administrator of such a system might appreciate the idea not to accept every offer of hosting such an application, since it might require specialized hardware to be able to operate safely.
+	- Architecture: Encrypted Docker image with Nvidia GPU (>= RTX 3060 12GB) running fhEVM, with libp2p (specificly the libkademlia moduel) for peer discovery and saorsa-gossip for communication.
+	- 3-Level gate keeping:
+		- Level 1: Blacklist incoming IP or PeerID using ConnectionGater (in libp2p terms)
+		- Level 2: Proof of GPU: Before joining, the new node might need to proof that it might have access to a powerful enough GPU, with a tight enough round trip time (RTT) to prevent relay attacks to impose a healthy node. Another security layer might be to use Remote Attestation Physically Unclonable Function (PUF) API such as NVIDIA TEE with standardized attestation protocols like SPDM for hardware-level remote attestion (SEC2) at the Docker level for the identity generation an verified by existing nodes against NVIDIA Remote Attestation Service (NRAS) using a Nonce to prevent replay attack:    
+		official: https://github.com/nvidia/nvtrust     
+		community: https://github.com/confidentsecurity/go-nvtrust   
+		- Level 3: Continuous Behavioral Verification (Execution Integrity): Before new key might be generated and distributed, the oldest node might need to start requesting and evaluting remote attestation of the PUF. And if a node fails at any given moment, that node might be banned.  At level 2, the GPU might be tested against Level 3 blacklist.
 
 5. Publicly accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.
 ________
@@ -198,7 +205,7 @@ MISC:
 	- Decentral PQC-safe loadbalancing: https://github.com/linkerd/linkerd2
 	- Decentral medium agnostic mesh protocol (not PQC-safe yet) for LoRa-Mesh: https://github.com/markqvist/Reticulum
 - Decentral private computing:
-	- Protocol + Computing power (not natively PQS-save): https://github.com/aleph-im/aleph-vm/tree/main/runtimes/aleph-debian-12-python
+	- Off-chain cloud services with custom protocol + TEE computing power (not natively PQS-save): https://github.com/aleph-im/aleph-vm/tree/main/runtimes/aleph-debian-12-python
 
 Outdated research notes :
 	- Decentral Open source code base (not natively PQS-save): https://radicle.xyz/
@@ -213,19 +220,20 @@ Outdated research notes :
 ---
 Which might be known yet might be unsolved challenges:
 - Cheating during knowledge tests: If the user or harmful bots might be tempted to cheat during the quiz sessions. in order to stay in the thread for voting rights or to propagate false information. The implementations of such tests with "trusted" moderators might have limitation on expertise, time and resources. For most users such a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure. By requiring reasons for veto on the forum thread votes, which might get verified on existing knowledge and on the document called "42?", one might be able to prevent obviously wrong result of such threads. If a harmful activity might be detected, the write access privileges be revoked. This stakes of risk might be the only mechanism capable of preventing abuse, but since there might be no definitive solution, this point might remain until another system might be suggested and implemented.   
+- Relay attack: A node pretending to have access to GPU, by relaying the computation to an instance with GPU.
 - Trustable p2p multi source LLM inference source: Those who might seek to contribute by offering inference capacity, might be tempted to use a specific corrupted endpoint, or modify their local DNS service to reroute traffic from trusted sources to their corrupted sources. The only possible solution might be to do multiple inferences on random nodes to make sure that that such corrupted redirection might not happen.   
 - Compliance with EU AI Act: Since D5 might fall in the "high risk" category, all decisions and reasoning made by AI systems might need to be made public for audits, and it might have to be made sure that there might be no (social) profiling of users made who might have been subject of blacklisting or manipulate opinion of users and a human in the loop reporting system if such attempts might be recognizable. Details might need to be elaborated further, using the following reference: https://artificialintelligenceact.eu/wp-content/uploads/2024/11/Future-of-Life-InstituteAI-Act-overview-30-May-2024.pdf    
 - "WireTap" attack: By using dedicated hardware such as FPGA directly sitting on the physical memory bus, stealing credentials of enclave environments might have been possible. Relying on hardware security might not be able to feasible, so that the final system might need to be able to run on untrusted hardware. This issue might be solverable with Intel TDX or AMD SEV-SNP, which might be useful for trusted administrator nodes.   
 - Modified client attack: An harmful user might  be tempted to modify the open source implementation and pretend to run an "healthy" node. Solution might be that every image might be pre-build and distributed through the secret management dApp, so that no unregistered instance might be able to run in a zero knowledge environment without hardware level TEE (Trusted Execution Environment) with Fully Homomorphic Encryption (FHE), which might not be available at the time of writing ( \today ).   
 https://github.com/zama-ai/tfhe-rs   
 Viability of tfhe-rs with gpu acceleration: https://www.zama.org/post/tfhe-rs-v1-4-gpu-performance-breakthrough-and-more   
-https://github.com/zama-ai/fhevm    
-
+Direct on chain computing at Layer-1/Layer-2 blockchain framework: https://github.com/zama-ai/fhevm    
 https://github.com/openfheorg/openfhe-development    
 https://github.com/AleoNet/snarkos-docker    
 https://github.com/namada-net/namada   
 https://github.com/occlum/occlum   
 https://github.com/decentralized-identity/veramo    
+- Collapse of the internet: Since critical infrastructure might need high speed internet, once the internet might break down, D5 system might not be viable anymore, since it might need to pass PUF remote attestation against NVIDIA server.
 
 ---
 Challenges which might already be solved:
