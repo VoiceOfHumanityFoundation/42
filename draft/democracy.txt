@@ -218,6 +218,8 @@ Which might be known yet might be unsolved challenges:
 - "WireTap" attack: By using dedicated hardware such as FPGA directly sitting on the physical memory bus, stealing credentials of enclave environments might have been possible. Relying on hardware security might not be able to feasible, so that the final system might need to be able to run on untrusted hardware. This issue might be solverable with Intel TDX or AMD SEV-SNP, which might be useful for trusted administrator nodes.   
 - Modified client attack: An harmful user might  be tempted to modify the open source implementation and pretend to run an "healthy" node. Solution might be that every image might be pre-build and distributed through the secret management dApp, so that no unregistered instance might be able to run in a zero knowledge environment without hardware level TEE (Trusted Execution Environment) with Fully Homomorphic Encryption (FHE), which might not be available at the time of writing ( \today ).   
 https://github.com/zama-ai/tfhe-rs   
+Viability of tfhe-rs with gpu acceleration: https://www.zama.org/post/tfhe-rs-v1-4-gpu-performance-breakthrough-and-more   
+
 https://github.com/openfheorg/openfhe-development    
 https://github.com/AleoNet/snarkos-docker    
 https://github.com/namada-net/namada   
