@@ -147,7 +147,7 @@ Current tech stack:
 	- After the request for black listing might have been issued, all activities by that node might be suspended until the request might have been processed.
 	- After sending one request to black list that original authentication node might also be suspended to prevent one node accusing all others.
 
-4. Decentral secret management system:
+4. Decentral secret management system (key ring rotator):
 	- It might be a dApp at first instantiated and might be funded by the voice of humanity foundation and might act as a single instance.
 	- It's purpose might be to keep regenerating the credentials in certain intervals to avoid being brute forced.
 	- The credentials might be encrypted in a file on a virtual disk on a RAM and might not be stored anywhere else to avoid being brute forced.
@@ -156,8 +156,9 @@ Current tech stack:
 		- All public keys and UUIDs of the gateway node, and whether it might be blocked
 		- All public keys and UUIDs of the authorization node, and whether it might be blocked
 		- The private key private key used to encrypt the file with the credentials might be also on the temporal ram on a RAM of the decentral private computing cluster and might be also regularly regenerated.
-		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep changing the root password as well to avoid "harmful maid attacks".
-	- Might manage votes regarding black listing of authentication nodes.
+		- The root password, after the first instantiation, the system might lock out the access to the root system by changing the root password to a random password. And the system might keep  changing the root password as well to avoid "harmful maid attacks".   
+	- Might manage votes regarding black listing of authentication nodes.   
+	- The administrator of such a system might appreciate the idea not to accept every offer of hosting such an application, since it might require specialized hardware to be able to operate safely.
 
 5. Publicly accessible decentral storage for the forum data for discussion, it's operation might be funded by the voice of humanity foundation. The current laws of each country might be mirrored and anyone might be able to publish a comment or specific change for that law but only might be authenticated with the digital identity issued by that local government of that country might be able to participate in the vote to accept that change.
 ________
