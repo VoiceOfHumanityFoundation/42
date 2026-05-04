@@ -126,14 +126,14 @@ Current tech stack:
 	- Might send an encrypted message with the public key of the authentication node for privacy.
 	- If the publish request might have been denied by the authorization node, the user might get two information. One might contain plain text explaining the reason in an human understandable way. The other might contain an encrypted message containing the original message, UUID of the client application, the UUID of the gateway node, the UUID of the authentication node and the reason why the publish request might have been denied.
 	- The user might have the freedom to send the encrypted string to the Voice of Humanity foundation for review by human after the verification with "altcha". Only messages which might be decrypted by the authorization node might be actually sent for human review.
-	- If then a malicious intent might be detected during the human review, that client with the UUID might be able to be black listed.
+	- If then a harmful intent might be detected during the human review, that client with the UUID might be able to be black listed.
 	- A client might be able to request permission to vote, after the identity of the client might have been verified using the API for online identification of local governments.
 
 2. Gateway Node:
 	- Self Compilable, UUID of the gateway node might be registered in authorization node
 	- Might host a REST API to access to the decentralized data and request to publish messages.
 	- Might relay encrypted publish message request to the authorization node. 
-	- Might be able to be requested for black listing, if many malicious clients activity might have been detected.
+	- Might be able to be requested for black listing, if many harmful clients activity might have been detected.
 
 3. Authorization node.
 	- Might be able to authenticate and blacklist a Gateway node.
@@ -175,7 +175,7 @@ Old tech stack:
 2.3 P2P unauthorized node with radicle like decentral repo which might be hosting source code and also the public data (discussion channels, ballot results) and private data (Blacklist, each ballot votes) with only read access.
 2.4 P2P authorized node with read only access to public data which might be interfacing a centralized REST server for quick information access.
 2.5 P2P authorized node with code review bot, which might be verifying request for change and initiating a ballot of the code maintenance team.
-2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a malicious intent might have been recognized, before blacklisting human moderator might need to review that malicious action.
+2.6 P2P authorized node with moderator bots which might be responsible for blacklisting nodes for each channels if a harmful intent might have been recognized, before blacklisting human moderator might need to review that harmful action.
 2.7 P2P authorized node for quiz generator, which might be submitting quiz to human verifiers.
 2.8 P2P authorized node for authorization (of users, operators, domains to centralized server as information source).
 2.9 P2P authorized node for managing "main" crypto-wallet managing all the Filecoin/Verizexe-coin which address might be hard coded and the private key might be typed in manually by the highest administrator.
@@ -209,13 +209,22 @@ Outdated research notes :
 		- https://docs.filecoin.io/builder-cookbook/dapps/decentralized-database
 	- Decentral forum: https://join-lemmy.org/docs/introduction.html
 
-____________
+---
 Which might be known yet might be unsolved challenges:
-- Cheating during knowledge tests: If the user or harmful bots might be tempted to cheat during the quiz sessions. in order to stay in the thread for voting rights or to propagate false information. The implementations of such tests with "trusted" moderators might have limitation on expertise, time and resources. For most users such a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure. By requiring reasons for veto on the forum thread votes, which might get verified on existing knowledge and on the document called "42?", one might be able to prevent obviously wrong result of such threads. If a harmful activity might be detected, the write access privileges be revoked. This stakes of risk might be the only mechanism capable of preventing abuse, but since there might be no definitive solution, this point might remain until another system might be suggested and implemented.
-- Compliance with EU AI Act: Since D5 might fall in the "high risk" category, all decisions and reasoning made by AI systems might need to be made public for audits, and it might have to be made sure that there might be no (social) profiling of users made who might have been subject of blacklisting or manipulate opinion of users and a human in the loop reporting system if such attempts might be recognizable. Details might need to be elaborated further, using the following reference: https://artificialintelligenceact.eu/wp-content/uploads/2024/11/Future-of-Life-InstituteAI-Act-overview-30-May-2024.pdf
+- Cheating during knowledge tests: If the user or harmful bots might be tempted to cheat during the quiz sessions. in order to stay in the thread for voting rights or to propagate false information. The implementations of such tests with "trusted" moderators might have limitation on expertise, time and resources. For most users such a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure. By requiring reasons for veto on the forum thread votes, which might get verified on existing knowledge and on the document called "42?", one might be able to prevent obviously wrong result of such threads. If a harmful activity might be detected, the write access privileges be revoked. This stakes of risk might be the only mechanism capable of preventing abuse, but since there might be no definitive solution, this point might remain until another system might be suggested and implemented.   
+- Trustable p2p multi source LLM inference source: Those who might seek to contribute by offering inference capacity, might be tempted to use a specific corrupted endpoint, or modify their local DNS service to reroute traffic from trusted sources to their corrupted sources. The only possible solution might be to do multiple inferences on random nodes to make sure that that such corrupted redirection might not happen.   
+- Compliance with EU AI Act: Since D5 might fall in the "high risk" category, all decisions and reasoning made by AI systems might need to be made public for audits, and it might have to be made sure that there might be no (social) profiling of users made who might have been subject of blacklisting or manipulate opinion of users and a human in the loop reporting system if such attempts might be recognizable. Details might need to be elaborated further, using the following reference: https://artificialintelligenceact.eu/wp-content/uploads/2024/11/Future-of-Life-InstituteAI-Act-overview-30-May-2024.pdf    
+- "WireTap" attack: By using dedicated hardware such as FPGA directly sitting on the physical memory bus, stealing credentials of enclave environments might have been possible. Relying on hardware security might not be able to feasible, so that the final system might need to be able to run on untrusted hardware. This issue might be solverable with Intel TDX or AMD SEV-SNP, which might be useful for trusted administrator nodes.   
+- Modified client attack: An harmful user might  be tempted to modify the open source implementation and pretend to run an "healthy" node. Solution might be that every image might be pre-build and distributed through the secret management dApp, so that no unregistered instance might be able to run in a zero knowledge environment without hardware level TEE (Trusted Execution Environment) with Fully Homomorphic Encryption (FHE), which might not be available at the time of writing ( \today ).   
+https://github.com/zama-ai/tfhe-rs   
+https://github.com/openfheorg/openfhe-development    
+https://github.com/AleoNet/snarkos-docker    
+https://github.com/namada-net/namada   
+https://github.com/occlum/occlum   
+https://github.com/decentralized-identity/veramo    
 
-__________
-challenges which might already be solved:
+---
+Challenges which might already be solved:
 - What if the centralized internet infrastructure might collapse?
 	-> There might be able to create a communication network using PQC-safe mesh networks with supernodes bridging direction and asynchronous communication and Smart contracts with Proof of Stake (low bandwidth, low energy) ledger.
 - Verification process of the knowledge base/quiz
@@ -244,10 +253,10 @@ which address might be documented in the Ethereum smart contract. -> Filecoin mi
 	5. If the code review bot might have checked it, there might be a vote by the code maintenance team to accept that RFC to the code base, which might trigger a CI/CD workflow.
 	6. Hosting bot instances might be optional (Code review, moderator, quiz generator, explainer)
 - Bot war challenge (Moderator Bot might not work as expected and goes rogue) -> Different bot might be in charge of code review.
-- Representative challenge: There might be a possibility for the representative to become prime minister, chancellor or similar roles for which it might be required to make own decisions based on classified information, for whichsuch representative might have to make a decision without consulting the D5 system, because that would leak sensitive information, which might endanger the lives of the citizens. This might contradict the principle of radical transparency, but in order to stay compatible with most current democratic systems where there might be classified intels to protect the citizens, one might seek to grant the trust in advance. Those representative who might have been entrusted such a role, might appreciate the design of D5 system to be able to consult this system in private, since search information might reveal sensitive information. Since in most democratic countries, all of the decisions made with the authority of such roles might need to be made public, which might reduce the risk of tyranny. Unless such representative might make fundamentally flawed error, one might seek not to request a resignation based on a specific decision which the other users might have not been consulted, which be announced in the D5 system as well as on the official governmental platform. If the absolute majority of the verified and authorized users for ballots did not veto a such a request for resignation, it the specific representative might need to resign. If that specific representative might refuse such request for resignation, that representative might be revoked their privileged access to the D5 system by the administrators of D5. 
+- Representative challenge: There might be a possibility for the representative to become prime minister, chancellor or similar roles for which it might be required to make decisions. which might not be part of legislative context, which decisions might need to be make based on classified information, for which such representative might have to make a decision without consulting the D5 system, because that would leak sensitive information, which might endanger the lives of the citizens. This might contradict the principle of radical transparency, but in order to stay compatible with most current democratic systems where there might be classified information to protect the citizens, one might seek to grant the trust in advance. Those representative who might have been entrusted such a role, might appreciate the design of D5 system to be able to consult this system in private, since search information might reveal sensitive information. Since in most democratic countries, all of the decisions made with the authority of such roles might need to be made public, which might reduce the risk of tyranny. Unless such representative might make fundamentally flawed error, one might seek not to request a resignation based on a specific decision which the other users might have not been consulted, which be announced in the D5 system as well as on the official governmental platform. If the absolute majority of the verified and authorized users for ballots did not veto a such a request for resignation, it the specific representative might need to resign. If that specific representative might refuse such request for resignation, that representative might be revoked their privileged access to the D5 system by the administrators of D5. 
 - How local polls might be able to be handled? -> It might be done outside of the system and thus irrelevant for the system. The polls made within this system might be just for making suggestions to the local council and reelecting representatives for that local council if there might be enough supporters to found a local political party.
 - Authorization of nodes and users:
-	- Since everyone might be free to join, there might be a challenge of flooding with nodes operated by bots/humans for malicious intent.
+	- Since everyone might be free to join, there might be a challenge of flooding with nodes operated by bots/humans for harmful intent.
 	- One solution approach might be authorization for instantiation
 	- Every ballot instance might need to be authorized
 		- 1. Every operator from the identity verification service might require access to the system for the purpose of authorization.
@@ -258,18 +267,17 @@ which address might be documented in the Ethereum smart contract. -> Filecoin mi
 			- The system might permanently store it together with a unique node ID, but the list might be private and it might only be possible to ask whether a user might already be black listed or not.
 		- 4. They might receive an email containing a link and a one time key to the specified address which might start a identity verification process with authorized third party operators.
 		- 5. The user might authorized if the operator might type it into the system. 
-		- 6. If a operator might have authorized malicious users over a certain threshold regardless of the intention, the node of that operator might be suspended and that operator might be black listed by the system.
+		- 6. If a operator might have authorized harmful users over a certain threshold regardless of the intention, the node of that operator might be suspended and that operator might be black listed by the system.
 		- 7. All users authorized by the corrupt operator might be temporarily be excluded from ballots until reverification.
 		- 8. If that reverification might not happen in time, that user might be permanently blacklisted.
 - Trolling: Daily Rate Limit for publish requests
-- Malicious Client attack: Anyone might be able to create a lot of client instances and sends publish requests, which might be then denied and then requests to be reviewed by human and thus might overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
-
+- Harmful Client attack: Anyone might be able to create a lot of client instances and sends publish requests, which might be then denied and then requests to be reviewed by human and thus might overflow the capacity of human verification. Solution: Proof of Work with Altcha: https://github.com/altcha-org/altcha
 _____________
 Notes on implementation of the bots:
 1. Code review bot
 	- Opencode (coding agent): https://github.com/anomalyco/opencode/
 	- GSD (meta prompt context management): https://github.com/gsd-build/get-shit-done/
-	- 
+	- Hermes/OpenClaw
 
 2. Moderator bot:
 2.1 Principles of the moderator bot:
@@ -281,7 +289,7 @@ Notes on implementation of the bots:
 	- comply to the publication policy
 2.2 Publication Policy:
 - One might seek to be kind, to speak truthfully, to say useful things which might be necessary.
-- If one might recognizes malicious action, one might seek to report that action proactively to the moderators.    
+- If one might recognizes harmful action, one might seek to report that action proactively to the moderators.    
 
 
 3. Explainer bot   
