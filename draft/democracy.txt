@@ -237,7 +237,7 @@ Outdated research notes :
 		- https://docs.filecoin.io/builder-cookbook/dapps/decentralized-database
 	- Decentral forum: https://join-lemmy.org/docs/introduction.html
 
----
+___
 Which might be known yet might be unsolved challenges:
 - Cheating during knowledge tests: If the user or harmful bots might be tempted to cheat during the quiz sessions. in order to stay in the thread for voting rights or to propagate false information. The implementations of such tests with "trusted" moderators might have limitation on expertise, time and resources. For most users such a test in a booth without electronics might be ideal, but it might require authorized and correct operation of that institution, which might be difficult to ensure. By requiring reasons for veto on the forum thread votes, which might get verified on existing knowledge and on the document called "42?", one might be able to prevent obviously wrong result of such threads. If a harmful activity might be detected, the write access privileges be revoked. This stakes of risk might be the only mechanism capable of preventing abuse, but since there might be no definitive solution, this point might remain until another system might be suggested and implemented.   
 - Relay attack: A node pretending to have access to GPU, by relaying the computation to an instance with GPU.
@@ -255,7 +255,7 @@ https://github.com/occlum/occlum
 https://github.com/decentralized-identity/veramo    
 - Collapse of the internet: Since critical infrastructure might need high speed internet, once the internet might break down, D5 system might not be viable anymore, since it might need to pass PUF remote attestation against NVIDIA server.
 
----
+___
 Challenges which might already be solved:
 - What if the centralized internet infrastructure might collapse?
 	-> There might be able to create a communication network using PQC-safe mesh networks with supernodes bridging direction and asynchronous communication and Smart contracts with Proof of Stake (low bandwidth, low energy) ledger.
