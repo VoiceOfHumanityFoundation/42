@@ -211,3 +211,5 @@ cython_debug/
 .cursorindexingignore
 
 resources/translate/translation/*
+resources/translate/translated/*
+resources/translate/*.log
