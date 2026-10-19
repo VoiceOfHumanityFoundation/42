@@ -21,4 +21,4 @@ PY
 )
 
 export GH_TOKEN="$TOKEN"
-exec "$(dirname "$0")/build_greek_pdf.sh" "$@"
+exec "$(dirname "$0")/build_greek_pdf.sh" "$@" "$@"

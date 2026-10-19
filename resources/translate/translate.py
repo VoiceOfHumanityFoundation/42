@@ -11,7 +11,7 @@ import time
 #language="japanese"
 #language="bengali"
 #language="chinese"
-language="greek"
+language="turkish"
 #language="italian"
 #language="spanish"
 #language="russian"
@@ -21,6 +21,7 @@ language="greek"
 #language="esperanto"
 #language="greec"
 #language="vietname"
+language="turkish"
 #language="korean"
 #language="ukrainian" # unfinished
 #language="hebrew"
@@ -37,12 +38,10 @@ language="greek"
 #language="finnish"
 #language="daenish"
 
-regenerateFrom=12
+regenerateFrom=36
 regenerateUntil=42
-# Chapters already translated with Q4_K_M - skip on the resumed run.
-# (imagination=12 and courage=13 are NOT done - their batch was truncated)
-SKIP_CHAPTERS = {"awakening", "peace", "good", "diversity", "needs", "character",
-                 "faith", "home", "curiosity", "feedback", "hope"}
+# Chapters 1-35 already translated (run died during the final batch on Oct 15).
+SKIP_CHAPTERS = set()
 
 # Full-context batching: bonsai2 has 262K ctx total = 2 slots x 131072 each.
 # Chapters are packed into batches of ~BATCH_INPUT_BUDGET estimated input tokens;
